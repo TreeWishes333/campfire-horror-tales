@@ -1,0 +1,14 @@
+# Original media
+assets/video/originals/
+assets/images/originals/
+
+# Adobe files
+*.psd
+*.ai
+*.indd
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
