@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fleshy Findlay — a premium reading experience built from the manuscript source."
+    />
+    <title>Dawn Hill | Fleshy Findlay</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="index.html" aria-label="Dawn Hill home">Dawn Hill</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="nav-toggle__label">Menu</span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link" href="index.html">Home</a></li>
+            <li><a class="site-nav__link" href="stories.html">Stories</a></li>
+            <li><a class="site-nav__link" href="about.html">About</a></li>
+            <li><a class="site-nav__link" href="follow.html">Follow</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="story-read" aria-labelledby="story-title">
+        <div class="story-read__content">
+          <p class="eyebrow">CAMPFIRE HORROR TALE</p>
+          <h1 id="story-title">Fleshy Findlay</h1>
+          <p class="story-read__meta">Estimated reading time: <span data-reading-time>3 minutes</span></p>
+          <p class="story-read__lede">
+            A roadside discovery unearths a secret that belongs to the forest more than to the living.
+          </p>
+
+          <div class="story-read__actions" aria-label="Story actions">
+            <a class="button" href="#listen">🎧 Listen</a>
+            <a class="button button--ghost" href="#download-pdf">📜 Download Campfire Edition (PDF)</a>
+            <a class="text-link" href="stories.html">← Back to Stories</a>
+          </div>
+
+          <article class="story-manuscript" id="story-manuscript" data-story-source="assets/stories/fleshy-findlay.md"></article>
+        </div>
+
+        <aside class="story-read__art" aria-label="Atmospheric artwork for Fleshy Findlay">
+          <img
+            src="assets/images/20190929_152110914_iOS.jpg"
+            alt="A faded landscape that frames the story in shadow and memory"
+          />
+        </aside>
+      </section>
+
+      <section class="story-support" aria-label="Story support links">
+        <div class="story-support__panel" id="listen">
+          <p class="eyebrow">Listen</p>
+          <h2>Narrated editions are currently being prepared.</h2>
+          <p>Soon you’ll be able to gather around the fire and listen to every Campfire Horror Tale.</p>
+        </div>
+
+        <div class="story-support__panel" id="download-pdf">
+          <p class="eyebrow">Download</p>
+          <h2>Campfire Edition (PDF)</h2>
+          <p>The Campfire Edition will be available shortly.</p>
+          <span class="button button--ghost story-support__button" aria-disabled="true">📜 Download Campfire Edition (PDF)</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© Dawn Hill. Original stories, dark folklore, and tales from beyond the firelight.</p>
+    </footer>
+  </body>
+</html>
