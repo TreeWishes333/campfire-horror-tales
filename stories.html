@@ -17,32 +17,33 @@
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="index.html" aria-label="Dawn Hill home">Dawn Hill</a>
-
-        <button
-          class="nav-toggle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="site-nav"
-        >
-          <span class="nav-toggle__label">Menu</span>
-        </button>
-
-        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-          <ul class="site-nav__list">
-            <li><a class="site-nav__link" href="index.html">Home</a></li>
-            <li><a class="site-nav__link is-current" href="stories.html" aria-current="page">Stories</a></li>
-            <li><a class="site-nav__link" href="about.html">About</a></li>
-            <li><a class="site-nav__link" href="follow.html">Follow</a></li>
-          </ul>
-        </nav>
+        <button class="site-header__audio" type="button" aria-label="Light the crackle">Light the Crackle 🔊</button>
       </div>
     </header>
 
     <main id="main-content">
-      <section class="content-section stories-intro" aria-labelledby="stories-title">
+      <section class="story-hero" aria-labelledby="stories-title">
+        <div class="story-hero__content">
+          <p class="eyebrow">Campfire Horror Tales</p>
+          <h1 id="stories-title">Fleshy Findlay</h1>
+          <p class="story-hero__tagline">The first tale from the firelit woods.</p>
+          <p class="story-hero__intro">Dawn Hill’s first collection begins where the roadside meets the forest, and where a single discovery opens the door to something older and far more dreadful.</p>
+          <div class="story-hero__actions" aria-label="Story links">
+            <a class="button" href="fleshy-findlay.html">Read Story</a>
+            <!-- <a class="button button--ghost" href="fleshy-findlay.html#listen">Listen</a> -->
+            <!-- <a class="button button--ghost" href="fleshy-findlay.html#download-pdf">Download This Tale</a> -->
+          </div>
+          <!-- <a class="story-hero__behind" href="fleshy-findlay.html#behind-the-fire">Behind the Fire</a> -->
+        </div>
+        <div class="story-hero__art" aria-hidden="true">
+          <img src="assets/images/Story Posters/Fleshy Findlay Poster.png" alt="Poster artwork for Fleshy Findlay" />
+        </div>
+      </section>
+
+      <section class="content-section stories-intro" aria-labelledby="story-entry-title">
         <div class="section-heading">
           <p class="eyebrow">STORIES</p>
-          <h1 id="stories-title">Welcome to Campfire Horrortales</h1>
+          <h1>Welcome to Campfire Horrortales</h1>
         </div>
         <p class="section-intro">
           Dawn Hill’s first collection begins with Fleshy Findlay. A roadside discovery unearths a secret that belongs to the forest more than to the living. The tale moves from childhood wonder into something older and far more dreadful.
@@ -59,7 +60,8 @@
           <div class="story-card__body">
             <h2 id="story-entry-title">Fleshy Findlay</h2>
             <p>
-              Every town has a story parents tell to get their children home before dark. This is that stoy. When one young boy didn't come home. By morning, what was missing left the whole village traumatized.           </p>
+              Every town has a story parents tell to get their children home before dark. This is that story. When one young boy didn’t come home, the whole village was left with something far worse than a missing child.
+            </p>
             <ul class="story-card__links">
               <li><a class="button" href="fleshy-findlay.html">Open the story</a></li>
             </ul>

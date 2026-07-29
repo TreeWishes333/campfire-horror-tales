@@ -68,6 +68,23 @@ a { text-decoration: none; color: inherit; transition: 0.3s ease; }
   font-size: 2rem;
   letter-spacing: 0.08em;
 }
+.site-header__audio {
+  padding: 0.55rem 0.85rem;
+  border: 1px solid rgba(242, 238, 230, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--paper);
+  font: 500 0.74rem/1 'Inter', sans-serif;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+}
+.site-header__audio:hover,
+.site-header__audio:focus-visible {
+  border-color: rgba(242, 179, 93, 0.35);
+  color: var(--amber);
+}
 .site-nav__list {
   display: flex;
   gap: 2rem;
@@ -118,6 +135,144 @@ main {
   max-width: 720px;
   padding: 2rem 0;
   animation: fadeUp 1.2s ease;
+}
+.story-hero {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: #05070b;
+  box-shadow: none;
+}
+.story-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(6, 7, 10, 0.96) 0%, rgba(6, 7, 10, 0.7) 42%, rgba(6, 7, 10, 0.12) 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+.story-hero__content,
+.story-hero__art {
+  position: relative;
+  z-index: 1;
+}
+.story-hero__content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  max-width: min(100%, 680px);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.story-hero h1 {
+  margin: 0;
+  color: var(--paper);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.8rem, 5vw, 4.7rem);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+}
+.story-hero__tagline {
+  margin: 0.6rem 0 0.8rem;
+  color: var(--amber);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.2rem, 2vw, 1.7rem);
+  font-style: italic;
+}
+.story-hero__intro {
+  max-width: 46ch;
+  margin: 0 0 1.4rem;
+  color: #ddd7cf;
+  font-size: 1.06rem;
+  line-height: 1.75;
+}
+.story-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1rem;
+  margin: 1.4rem 0 1.1rem;
+}
+.story-hero__actions .button {
+  margin-top: 0;
+}
+.story-hero__behind {
+  display: inline-flex;
+  align-items: center;
+  color: var(--amber);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.story-hero__behind:hover {
+  color: var(--paper);
+}
+.story-hero__art {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.story-hero__art::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.16) 34%, rgba(0, 0, 0, 0) 72%);
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+}
+.story-hero__art img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(1.03) contrast(1.05) brightness(0.94);
+}
+.story-support--behind {
+  padding-top: 0.5rem;
+}
+.story-support--behind .story-support__panel {
+  background: rgba(255, 255, 255, 0.04);
+}
+@media (max-width: 860px) {
+  .story-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+  .story-hero__content {
+    max-width: none;
+  }
+  .story-hero__art {
+    justify-content: center;
+  }
+  .story-hero__art img {
+    max-height: 58svh;
+    margin: 0;
+  }
+}
+@media (max-width: 560px) {
+  .story-hero {
+    margin-top: 5.5rem;
+    padding: 1.2rem;
+    border-radius: 1.4rem;
+  }
+  .story-hero h1 {
+    font-size: clamp(2.2rem, 8vw, 3.2rem);
+  }
 }
 .eyebrow {
   color: var(--amber);
@@ -398,17 +553,17 @@ main {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(21, 24, 29, 0) 0%, rgba(6, 9, 14, 0.2) 50%, rgba(6, 9, 14, 0.8) 100%);
   pointer-events: none;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.16) 34%, rgba(0, 0, 0, 0) 72%);
+  mix-blend-mode: multiply;
+  opacity: 0.9;
 }
 .story-read__art img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.65;
-  filter: blur(0.2px) saturate(0.8) contrast(1.05);
-  -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.3) 100%);
-  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.3) 100%);
+  opacity: 1;
+  filter: saturate(1.02) contrast(1.05) brightness(0.94);
 }
 .story-manuscript {
   max-width: 760px;

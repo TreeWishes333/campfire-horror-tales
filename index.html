@@ -11,10 +11,11 @@
       /* Homepage anthology sequence. All rules are local to this document. */
       .anthology-hero {
         position: relative;
-        display: grid;
+        display: flex;
         min-height: 100svh;
         overflow: hidden;
-        place-items: end center;
+        align-items: center;
+        justify-content: center;
         background: #080a0d;
       }
 
@@ -38,12 +39,13 @@
       }
 
       .anthology-hero__title {
-        position: relative;
+        position: absolute;
+        inset: 0;
         z-index: 2;
-        width: min(100% - 2rem, 1050px);
-        padding: 0 0 clamp(4rem, 10vh, 7rem);
-        text-align: center;
-        text-shadow: 0 3px 30px rgba(0, 0, 0, 0.55);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
       }
 
       .anthology-hero h1,
@@ -69,10 +71,11 @@
 
       .anthology-hero__sound {
         position: absolute;
-        right: clamp(1rem, 4vw, 3rem);
-        bottom: clamp(1.25rem, 4vw, 2.8rem);
+        left: 50%;
+        bottom: clamp(2rem, 5vw, 3.5rem);
         z-index: 3;
-        padding: 0.55rem 0.85rem;
+        transform: translateX(-50%);
+        padding: 0.7rem 1.05rem;
         border: 1px solid rgba(242, 238, 230, 0.28);
         border-radius: 999px;
         background: rgba(8, 10, 12, 0.35);
@@ -82,6 +85,7 @@
         text-transform: uppercase;
         cursor: pointer;
         backdrop-filter: blur(10px);
+        box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
       }
 
       .anthology-hero__sound:hover,
@@ -93,20 +97,49 @@
       .anthology-exhibit,
       .anthology-teaser,
       .anthology-author,
-      .anthology-invitation { padding: clamp(7rem, 14vw, 12rem) 2rem; }
+      .anthology-invitation { padding: 0 clamp(1.25rem, 3vw, 2rem); }
+
+      .anthology-exhibit,
+      .anthology-teaser {
+        position: relative;
+        min-height: 100svh;
+      }
+
+      .anthology-exhibit {
+        overflow: visible;
+        padding-bottom: clamp(3rem, 7vw, 5rem);
+      }
+
+      .anthology-exhibit::before,
+      .anthology-teaser::before {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        content: '';
+        pointer-events: none;
+        background:
+          linear-gradient(90deg, rgba(5, 8, 12, 0.95) 0%, rgba(5, 8, 12, 0.55) 40%, rgba(5, 8, 12, 0.12) 100%),
+          radial-gradient(circle at 82% 18%, rgba(242, 179, 93, 0.16), transparent 36%);
+      }
 
       .anthology-exhibit__inner,
-      .anthology-teaser__inner { max-width: 1480px; margin: 0 auto; }
-      .anthology-exhibit__inner { position: relative; }
+      .anthology-teaser__inner {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        max-width: none;
+        min-height: 100svh;
+        margin: 0;
+      }
 
       .anthology-page .brand { font-size: clamp(1.3rem, 2.8vw, 2rem); }
 
       .anthology-exhibit__heading {
         position: absolute;
-        z-index: 1;
-        top: clamp(1.5rem, 5vw, 4.5rem);
-        left: clamp(1.5rem, 5vw, 4.5rem);
-        width: min(58%, 700px);
+        z-index: 2;
+        left: clamp(1.25rem, 3vw, 2rem);
+        bottom: clamp(1.5rem, 4vw, 3rem);
+        width: min(60%, 720px);
         margin: 0;
         text-align: left;
         text-shadow: 0 3px 20px rgba(0, 0, 0, 0.82);
@@ -142,35 +175,67 @@
 
       .anthology-exhibit__art,
       .anthology-teaser__art {
+        position: absolute;
+        inset: 0;
         display: block;
         width: 100%;
-        max-height: 86svh;
-        margin: 0 auto;
-        object-fit: contain;
+        height: 100%;
+        max-width: none;
+        max-height: none;
+        margin: 0;
+        object-fit: cover;
         object-position: center;
+        filter: brightness(0.95) saturate(1.02);
       }
 
-      .anthology-exhibit__actions {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1.3rem 2.3rem;
-        margin: clamp(2.2rem, 5vw, 4rem) 0 0;
-        padding: 0;
-        list-style: none;
+      .anthology-exhibit__art::after {
+        position: absolute;
+        inset: 0;
+        content: '';
+        pointer-events: none;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.16) 34%, rgba(0, 0, 0, 0) 72%);
+        mix-blend-mode: multiply;
+        opacity: 0.9;
       }
 
-      .anthology-exhibit__actions a,
+      .anthology-story {
+        position: relative;
+        z-index: 2;
+        max-width: 760px;
+        margin: clamp(2.25rem, 4vw, 3.25rem) auto 0;
+        padding: clamp(1.25rem, 2.5vw, 2rem) clamp(0.25rem, 2vw, 1rem) clamp(2.25rem, 6vw, 3.5rem);
+      }
+
+      .anthology-story::before {
+        display: block;
+        width: 96px;
+        height: 1px;
+        margin-bottom: 1.25rem;
+        content: '';
+        background: rgba(205, 171, 119, 0.35);
+      }
+
+      .anthology-story p {
+        margin: 0 0 1.1rem;
+        color: #efe3d0;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: clamp(1.04rem, 1.8vw, 1.24rem);
+        line-height: 1.75;
+        text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
+      }
+
+      .anthology-story p:last-child { margin-bottom: 0; }
+
       .anthology-author__link,
       .anthology-invitation__link {
+        display: inline-block;
+        margin-top: 1.2rem;
         color: var(--amber);
         font: 500 0.78rem/1.4 'Inter', sans-serif;
         letter-spacing: 0.16em;
         text-transform: uppercase;
       }
 
-      .anthology-exhibit__actions a:hover,
-      .anthology-exhibit__actions a:focus-visible,
       .anthology-author__link:hover,
       .anthology-author__link:focus-visible,
       .anthology-invitation__link:hover,
@@ -199,10 +264,22 @@
 
       .anthology-exhibit--bog { background: linear-gradient(180deg, transparent, rgba(22, 30, 40, 0.42), transparent); }
 
-      .anthology-teaser { padding-top: clamp(8rem, 16vw, 14rem); }
-      .anthology-teaser__inner { text-align: center; }
-      .anthology-teaser__art { max-width: min(100%, 940px); filter: brightness(0.68) saturate(0.66); }
-      .anthology-teaser__copy { margin-top: clamp(2.25rem, 5vw, 4rem); }
+      .anthology-teaser { padding-top: clamp(5rem, 10vw, 8rem); }
+      .anthology-teaser__copy {
+        position: absolute;
+        z-index: 2;
+        left: clamp(1.25rem, 4vw, 3rem);
+        top: clamp(1.25rem, 4vw, 3rem);
+        width: min(46%, 560px);
+        margin: 0;
+        text-align: left;
+      }
+      .anthology-teaser__art {
+        max-width: min(100%, 840px);
+        margin-left: auto;
+        margin-right: 0;
+        filter: brightness(0.9) saturate(1.02);
+      }
       .anthology-teaser h2 { font-size: clamp(2.8rem, 6vw, 5.2rem); }
       .anthology-teaser__tagline {
         margin: 1rem 0 0;
@@ -290,15 +367,7 @@
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="index.html" aria-label="Campfire Horror Tales home">Campfire Horror Tales</a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="nav-toggle__label">Menu</span></button>
-        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-          <ul class="site-nav__list">
-            <li><a class="site-nav__link is-current" href="index.html" aria-current="page">Home</a></li>
-            <li><a class="site-nav__link" href="stories.html">Stories</a></li>
-            <li><a class="site-nav__link" href="about.html">About</a></li>
-            <li><a class="site-nav__link" href="follow.html">Follow</a></li>
-          </ul>
-        </nav>
+        <button class="site-header__audio" type="button" aria-label="Light the crackle">Light the Crackle 🔊</button>
       </div>
     </header>
 
@@ -307,9 +376,7 @@
         <video class="anthology-hero__video" autoplay muted loop playsinline preload="metadata" aria-label="A real campfire burning after sunset">
           <source src="assets/video/fire.mp4" type="video/mp4" />
         </video>
-        <div class="anthology-hero__title">          
-          <p class="anthology-hero__byline">by Dawn Hill</p>
-        </div>
+        <div class="anthology-hero__title" aria-hidden="true"></div>
         <audio class="anthology-ambience" loop preload="metadata">
           <source src="assets/audio/freesound_community-crackling-fire-14759.mp3" type="audio/mpeg" />
         </audio>
@@ -325,19 +392,8 @@
             <p class="anthology-exhibit__lead">A roadside discovery unearths a secret that belongs to the forest more than to the living.</p>
           </header>
           <img class="anthology-exhibit__art" src="assets/images/Findlays Face.png" alt="An ancient painted mask lying among leaves in the forest" />
-          <ul class="anthology-exhibit__actions" aria-label="Fleshy Findlay links">
-            <li><a href="fleshy-findlay.html">Read Story</a></li>
-            <li><a href="fleshy-findlay.html#listen">Listen</a></li>
-            <li><a href="#findlay-behind-fire">Behind the Fire</a></li>
-          </ul>
-          <aside class="anthology-behind" id="findlay-behind-fire" data-journal-entry="fleshy-findlay" data-journal-status="future">
-            <h3>Behind the Fire</h3>
-            <p>I found the mask tucked away in our cottage shortly after we bought it in 2019. It felt as though it had been waiting there for someone to discover it.</p>
-            <p>Some people thought it was unsettling. I couldn’t stop wondering who had left it behind... or why.</p>
-            <p>It became the spark that lit Campfire Horror Tales.</p>
-            <p>The mask is real. Everything that followed grew from that first discovery.</p>
-          </aside>
         </div>
+        <article class="anthology-story" data-story-source="assets/stories/fleshy-findlay.md"></article>
       </section>
 
       <section class="anthology-exhibit anthology-exhibit--bog" aria-labelledby="boy-in-the-bog-title" data-tale="the-boy-in-the-bog">
@@ -349,30 +405,97 @@
             <p class="anthology-exhibit__lead">There was once a boy named Frankie. Everyone in the village knew him. And everyone feared him.</p>
           </header>
           <img class="anthology-exhibit__art" src="assets/images/The Bog.png" alt="A toad beside a moonlit bog" />
-          <ul class="anthology-exhibit__actions" aria-label="The Boy in the Bog links">
-            <li><a href="stories.html">Read Story</a></li>
-            <li><a href="follow.html">Listen</a></li>
-            <li><a href="#bog-behind-fire">Behind the Fire</a></li>
-          </ul>
-          <aside class="anthology-behind" id="bog-behind-fire" data-journal-entry="the-boy-in-the-bog" data-journal-status="future">
+        </div>
+        <article class="anthology-story" data-story-source="assets/stories/the-boy-in-the-bog-draft-02.md"></article>
+      </section>
+
+      <section class="anthology-author" aria-labelledby="dawn-hill-title">
+        <div class="anthology-author__inner">
+          <img class="anthology-author__portrait" src="assets/images/Dawn Hill boat - text-free.png" alt="Dawn Hill sitting in a boat on a moonlit Laurentian lake" />
+          <div class="anthology-author__copy">
+            <p class="anthology-label">Meet the Storyteller</p>
+            <h2 id="dawn-hill-title">Dawn Hill</h2>
+            <p>Dawn Hill writes from the quiet edge of the Laurentian woods, where family memory, dark lakes, and old folklore still have stories to tell after sunset.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="anthology-invitation" aria-labelledby="stay-near-title">
+        <div class="anthology-invitation__inner">
+          <h2 id="stay-near-title">Until next tale...</h2>
+          <p>keep the fire burning.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© Dawn Hill. Original stories, dark folklore, and tales from beyond the firelight.</p>
+    </footer>
+
+    <script>
+      (() => {
+        const video = document.querySelector('.anthology-hero__video');
+        const ambience = document.querySelector('.anthology-ambience');
+        const soundButton = document.querySelector('.anthology-hero__sound');
+        if (!video || !ambience || !soundButton) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) video.pause();
+
+        const fadeTo = (target, duration) => {
+          const start = ambience.volume;
+          const startedAt = performance.now();
+          const tick = (now) => {
+            const progress = Math.min((now - startedAt) / duration, 1);
+            ambience.volume = start + (target - start) * progress;
+            if (progress < 1) requestAnimationFrame(tick);
+          };
+          requestAnimationFrame(tick);
+        };
+
+        soundButton.addEventListener('click', () => {
+          const soundIsOn = ambience.paused;
+          if (soundIsOn) {
+            ambience.volume = 0;
+            ambience.play().then(() => fadeTo(0.18, 2000)).catch(() => {});
+          } else {
+            fadeTo(0, 300);
+            window.setTimeout(() => ambience.pause(), 320);
+          }
+          soundButton.textContent = soundIsOn ? '🔥 Fire Burning' : '🔥 Light the Fire';
+          soundButton.setAttribute('aria-pressed', String(soundIsOn));
+          soundButton.setAttribute('aria-label', soundIsOn ? 'Turn off campfire ambience' : 'Light the fire');
+        });
+      })();
+    </script>
+  </body>
+</html>
+          <!-- <aside class="anthology-behind" id="findlay-behind-fire" data-journal-entry="fleshy-findlay" data-journal-status="future">
+            <h3>Behind the Fire</h3>
+            <p>I found the mask tucked away in our cottage shortly after we bought it in 2019. It felt as though it had been waiting there for someone to discover it.</p>
+            <p>Some people thought it was unsettling. I couldn’t stop wondering who had left it behind... or why.</p>
+            <p>It became the spark that lit Campfire Horror Tales.</p>
+            <p>The mask is real. Everything that followed grew from that first discovery.</p>
+          </aside> -->
+        </div>
+      </section>
+
+      <section class="anthology-exhibit anthology-exhibit--bog" aria-labelledby="boy-in-the-bog-title" data-tale="the-boy-in-the-bog">
+        <div class="anthology-exhibit__inner">
+          <header class="anthology-exhibit__heading">
+            <p class="anthology-label">Tale Two</p>
+            <h2 id="boy-in-the-bog-title">The Boy in the Bog</h2>
+            <p class="anthology-exhibit__tagline">The bog remembers what children leave behind.</p>
+            <p class="anthology-exhibit__lead">There was once a boy named Frankie. Everyone in the village knew him. And everyone feared him.</p>
+            <a class="anthology-exhibit__read-link" href="stories.html">Read Story</a>
+          </header>
+          <img class="anthology-exhibit__art" src="assets/images/The Bog.png" alt="A toad beside a moonlit bog" />
+          <!-- <aside class="anthology-behind" id="bog-behind-fire" data-journal-entry="the-boy-in-the-bog" data-journal-status="future">
             <h3>Behind the Fire</h3>
             <p>The frog in this photograph lives in my own backyard garden.</p>
             <p>The moment I took the picture, I was suddenly transported back to childhood.</p>
             <p>There was a boy who used to wander the bog near our home. My father would become furious when he saw him tormenting the frogs.</p>
             <p>After he left, my brothers, sisters, and I would quietly return to rescue the ones we could.</p>
             <p>Memory has a strange way of finding us. Sometimes it begins with nothing more than the eyes of a frog watching from the reeds.</p>
-          </aside>
-        </div>
-      </section>
-
-      <section class="anthology-teaser" aria-labelledby="girl-in-the-mirror-title">
-        <div class="anthology-teaser__inner">
-          <img class="anthology-teaser__art" src="assets/images/The Girl in the Mirror.png" alt="A girl beside an aged mirror reflecting a ghostly figure" />
-          <div class="anthology-teaser__copy">
-            <p class="anthology-label">The Next Tale</p>
-            <h2 id="girl-in-the-mirror-title">The Girl in the Mirror</h2>
-            <p class="anthology-teaser__tagline">Some reflections remember you.</p>
-          </div>
+          </aside> -->
         </div>
       </section>
 

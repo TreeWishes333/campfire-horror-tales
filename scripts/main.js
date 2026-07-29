@@ -21,8 +21,23 @@ function formatInlineMarkdown(text) {
     .replace(/\*(.+?)\*/g, '<em>$1</em>');
 }
 
+function normalizeMarkdown(markdown) {
+  return markdown
+    .replace(/^#\s+Draft\s+\d+\s*$/gm, '')
+    .replace(/^##\s+Story\s+\d+\s*$/gm, '')
+    .replace(/^#\s+Campfire Horror Tales\s*$/gm, '')
+    .replace(/^#\s+The Boy in the Bog\s*$/gm, '')
+    .replace(/^#\s+Fleshy Findlay\s*$/gm, '')
+    .replace(/^\*\*Status:\*\*.*$/gm, '')
+    .replace(/^\*\*Version:\*\*.*$/gm, '')
+    .replace(/^\*\*Notes:\*\*.*$/gm, '')
+    .replace(/^---\s*$/gm, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
 function renderMarkdown(markdown) {
-  const lines = markdown.replace(/\r/g, '').split('\n');
+  const lines = normalizeMarkdown(markdown).replace(/\r/g, '').split('\n');
   const html = [];
   let paragraph = [];
 
@@ -62,11 +77,11 @@ function renderMarkdown(markdown) {
   return html.join('');
 }
 
-const storyArticle = document.querySelector('[data-story-source]');
-const readingTimeEl = document.querySelector('[data-reading-time]');
+const storyArticles = document.querySelectorAll('[data-story-source]');
 
-if (storyArticle && readingTimeEl) {
+storyArticles.forEach((storyArticle) => {
   const source = storyArticle.dataset.storySource;
+  const readingTimeEl = storyArticle.closest('.story-read__content')?.querySelector('[data-reading-time]');
 
   fetch(source)
     .then((response) => {
@@ -77,11 +92,14 @@ if (storyArticle && readingTimeEl) {
     })
     .then((markdown) => {
       storyArticle.innerHTML = renderMarkdown(markdown);
-      const words = markdown.trim().split(/\s+/).filter(Boolean).length;
-      const minutes = Math.max(2, Math.ceil(words / 170));
-      readingTimeEl.textContent = `${minutes} minute${minutes === 1 ? '' : 's'}`;
+
+      if (readingTimeEl) {
+        const words = markdown.trim().split(/\s+/).filter(Boolean).length;
+        const minutes = Math.max(2, Math.ceil(words / 170));
+        readingTimeEl.textContent = `${minutes} minute${minutes === 1 ? '' : 's'}`;
+      }
     })
     .catch(() => {
       storyArticle.innerHTML = '<p>The story is being prepared for reading.</p>';
     });
-}
+});

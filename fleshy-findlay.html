@@ -17,55 +17,54 @@
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="index.html" aria-label="Dawn Hill home">Dawn Hill</a>
-
-        <button
-          class="nav-toggle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="site-nav"
-        >
-          <span class="nav-toggle__label">Menu</span>
-        </button>
-
-        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-          <ul class="site-nav__list">
-            <li><a class="site-nav__link" href="index.html">Home</a></li>
-            <li><a class="site-nav__link" href="stories.html">Stories</a></li>
-            <li><a class="site-nav__link" href="about.html">About</a></li>
-            <li><a class="site-nav__link" href="follow.html">Follow</a></li>
-          </ul>
-        </nav>
+        <button class="site-header__audio" type="button" aria-label="Light the crackle">Light the Crackle 🔊</button>
       </div>
     </header>
 
     <main id="main-content">
-      <section class="story-read" aria-labelledby="story-title">
+      <section class="story-hero" aria-labelledby="story-title">
+        <div class="story-hero__content">
+          <p class="eyebrow">Campfire Horror Tales</p>
+          <h1 id="story-title">Fleshy Findlay</h1>
+          <p class="story-hero__tagline">Some things buried in the woods should stay buried.</p>
+          <p class="story-hero__intro">A roadside discovery unearths a secret that belongs to the forest more than to the living, and the first page opens like a door into the dark.</p>
+          <div class="story-hero__actions" aria-label="Story actions">
+            <a class="button" href="#story-manuscript">Read Story</a>
+            <!-- <a class="button button--ghost" href="#listen">Listen</a> -->
+            <!-- <a class="button button--ghost" href="#download-pdf">Download This Tale</a> -->
+          </div>
+          <!-- <a class="story-hero__behind" href="#behind-the-fire">Behind the Fire</a> -->
+        </div>
+        <div class="story-hero__art" aria-hidden="true">
+          <img src="assets/images/Story Posters/Fleshy Findlay Poster.png" alt="Poster artwork for Fleshy Findlay" />
+        </div>
+      </section>
+
+      <section class="story-read" aria-labelledby="story-title-read">
         <div class="story-read__content">
           <p class="eyebrow">CAMPFIRE HORROR TALE</p>
-          <h1 id="story-title">Fleshy Findlay</h1>
+          <h1 id="story-title-read">Fleshy Findlay</h1>
           <p class="story-read__meta">Estimated reading time: <span data-reading-time>3 minutes</span></p>
           <p class="story-read__lede">
             A roadside discovery unearths a secret that belongs to the forest more than to the living.
           </p>
 
           <div class="story-read__actions" aria-label="Story actions">
-            <a class="button" href="#listen">🎧 Listen</a>
-            <a class="button button--ghost" href="#download-pdf">📜 Download Campfire Edition (PDF)</a>
             <a class="text-link" href="stories.html">← Back to Stories</a>
           </div>
 
           <article class="story-manuscript" id="story-manuscript" data-story-source="assets/stories/fleshy-findlay.md"></article>
         </div>
 
-        <aside class="story-read__art" aria-label="Atmospheric artwork for Fleshy Findlay">
+        <aside class="story-read__art" aria-label="Poster artwork for Fleshy Findlay">
           <img
-            src="assets/images/20190929_152110914_iOS.jpg"
-            alt="A faded landscape that frames the story in shadow and memory"
+            src="assets/images/Story Posters/Fleshy Findlay Poster.png"
+            alt="Poster artwork for Fleshy Findlay"
           />
         </aside>
       </section>
 
-      <section class="story-support" aria-label="Story support links">
+      <!-- <section class="story-support story-support--behind" aria-label="Story support links">
         <div class="story-support__panel" id="listen">
           <p class="eyebrow">Listen</p>
           <h2>Narrated editions are currently being prepared.</h2>
@@ -78,7 +77,13 @@
           <p>The Campfire Edition will be available shortly.</p>
           <span class="button button--ghost story-support__button" aria-disabled="true">📜 Download Campfire Edition (PDF)</span>
         </div>
-      </section>
+
+        <div class="story-support__panel" id="behind-the-fire">
+          <p class="eyebrow">Behind the Fire</p>
+          <h2>It began with a mask, a question, and a long silence.</h2>
+          <p>The first spark for the tale came from a forgotten object discovered in the woods, and from the hush that followed the question of who had left it there.</p>
+        </div>
+      </section> -->
     </main>
 
     <footer class="site-footer">
