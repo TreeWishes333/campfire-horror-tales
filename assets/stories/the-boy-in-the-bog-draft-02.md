@@ -12,7 +12,7 @@
 
 There was once a boy named Frankie.
 
-Everyone in the village knew him.
+Everyone in Saint-Clair-des-Bois knew him.
 
 And everyone feared him.
 
@@ -38,7 +38,13 @@ But his favourite victims...
 
 Were the frogs.
 
-Every summer afternoon, children wandered down to the bog carrying little pails, hoping to catch great green bullfrogs.
+Every summer afternoon, children wandered down to Blackwater Bog, just beyond the edge of Les Pins Noirs, carrying little pails in hopes of catching great green bullfrogs.
+
+The old-timers always warned children never to wander into the marsh alone.
+
+Most laughed off the stories.
+
+Children always do.
 
 The marsh echoed with laughter.
 
@@ -116,7 +122,7 @@ Then weeks.
 
 Nearly the entire summer.
 
-They dug deep into the soft marsh near the edge of the bog.
+They dug deep into the soft marsh along the edge of the Bog, where the reeds met the towering pines.
 
 When the hole was finally finished, they covered it with weeds, moss and reeds until it disappeared beneath the marsh.
 
@@ -150,13 +156,15 @@ Hundreds.
 
 Then thousands.
 
-They churned the mud with their powerful little legs until the marsh became softer than anyone imagined possible.
+They churned the black mud with their powerful little legs until the marsh became softer than anyone imagined possible.
 
 Not waist deep.
 
 Neck deep.
 
-The bog itself seemed to awaken.
+The water grew unnaturally still.
+
+The bog seemed to awaken.
 
 The trap was ready.
 
@@ -202,7 +210,7 @@ None of them moved.
 
 Then...
 
-The water rippled.
+The still waters rippled.
 
 One frog appeared.
 

@@ -5,13 +5,15 @@ Fleshy Findlay... the legend...
 
 ...poor little Bobby Findlay.
 
-I warn you, this is a grim tale—one that may keep you awake long after the fire has burned out. If you do manage to sleep, don't be surprised if it follows you into your dreams...or nightmares.
+I warn you, this is a grim tale—one that may keep you awake long after the fire has burned out. If you do manage to sleep, don't be surprised if it follows you into your dreams...
 
-Back in 1996, in the tiny village of La Minerve, there lived a boy named Bobby Findlay.
+...or your nightmares.
 
-When Bobby disappeared, the entire town searched for him.
+Back in 1996, in the tiny village of Saint-Clair-des-Bois, there lived a boy named Bobby Findlay.
 
-When they finally found him two days later, lying in a shallow grave on an island in the middle of the lake...
+When Bobby disappeared, the entire village searched for him.
+
+When they finally found him two days later, lying in a shallow grave on a small island in the middle of Lac Saint-Clair...
 
 his face was gone.
 
@@ -19,68 +21,242 @@ And that was only the beginning.
 
 You see, this story haunted the village for twenty-five years.
 
-And by the time the truth finally surfaced, many wished it had stayed buried.
+And by the time the truth finally surfaced...
+
+many wished it had stayed buried.
 
 
-Bobby was a kind little boy, and like every other ten-year-old in the village, he was always out exploring.
+Bobby was a kind little boy, and like every other ten-year-old in Saint-Clair-des-Bois, he spent every chance he got exploring.
 
-You could often see the glow of his camp light shining from the treehouse behind his family's home on the edge of town, where the forest pressed close on three sides.
+You could often see the glow of his camp lantern shining from the treehouse behind his family's home on the edge of town, where Les Pins Noirs pressed close on three sides. The people of Saint-Clair-des-Bois liked to believe the village ended where the pavement did.
 
-Nobody could have imagined that one summer afternoon would be the last time they would ever see him alive.
+The old-timers knew better.
+
+Beyond the last houses began Les Pins Noirs...
+
+and the forest had always kept its own secrets.
+
+Nobody could have imagined that one warm summer afternoon would be the last time anyone would ever see Bobby alive.
 
 
-Sadly, they found Bobby's momma hanging from a treehouse in the backyard where Bobby used to play. It was a desperately grisly sight, one that no husband should have to endure—especially just days after seeing the horror of his only child's lifeless body lying in a shallow grave.
+Sadly, they found Bobby's momma hanging from the treehouse where he used to play.
 
-After that, Bobby’s papa just upped and left; no one knows where he landed. But everyone knew he would run from the pain for the rest of his days.
+It was a desperately grisly sight.
 
-La Minerve was a quiet little town that saw most of its hustle and bustle from the summer cottagers, who mostly ventured in only to refill a water tank and grab some groceries at the market. Bobby was a local boy, so when school was out the kids liked people-watching in the summer. They would spend more time in the village to grab a vanilla soft serve from the pastry shop or a little brown bag full of penny candies from the corner store.
+One no husband should ever have to endure...
 
-Bobby and his best friends Johnny, Julie, and Paul were the kind of kids the townsfolk trusted—never out to cause trouble and always looking like they were having a genuinely good time, as ten-year-olds should.
+especially only days after seeing the lifeless body of his only child lying in a shallow grave.
 
-That summer, a new candy store opened up just beside the corner store, and the foursome was delighted. This guy had everything—Warheads, Starburst, jelly beans, Coke-bottle gummies, and those cool little flying discs filled with tiny candy balls.
+After that, Bobby's papa simply packed up and disappeared.
 
-His shop was just perfect: tiny, but every kid's dream. The sweet smell of sugar filled the air the minute you walked in the door (bells tinkling), and the glass counter was always fully stocked with rows and rows of candy.
+No one ever learned where he went.
 
-The candy man was a giant of a fellow.
+But everyone understood why.
+
+Some grief is simply too heavy to carry.
+
+Saint-Clair-des-Bois was a quiet Laurentian village that came alive every summer as cottagers filled its winding roads.
+
+Most stopped only long enough to refill their water tanks, grab groceries from the market, or cool off with a vanilla soft serve from the pastry shop.
+
+To outsiders, it was just another peaceful village tucked between lakes and forests.
+
+To the people who lived there...
+
+it was home.
+
+Bobby was a local boy, so summer meant freedom.
+
+The kids spent their days riding their bikes, people-watching, swimming in Lac Saint-Clair, or wandering into the village for penny candies and ice cream.
+
+Bobby and his best friends—Johnny, Julie, and Paul—were exactly the sort of kids the townsfolk trusted.
+
+They never caused trouble.
+
+They were simply children doing what children should...
+
+laughing.
+
+Exploring.
+
+Living.
+
+That summer, a new candy store opened beside the corner store, and the foursome couldn't believe their luck.
+
+The place had everything.
+
+Warheads.
+
+Starburst.
+
+Jelly beans.
+
+Coke-bottle gummies.
+
+Those little flying saucers filled with tiny candy balls.
+
+It was every kid's dream.
+
+The sweet smell of sugar greeted you the moment you opened the door, the little bell chiming overhead as glass jars and shelves overflowed with every candy imaginable.
+
+The candy man was enormous.
 
 Quiet.
 
-Too quiet.
+Far too quiet.
 
-The kids never knew where he'd come from, and nobody in town seemed to know much about him.
+The children never knew where he'd come from.
 
-Still, that didn't stop them from spending every spare dollar they had in his little shop.
+Truth be told...
 
-Kids rarely notice danger when it's hiding behind candy.
+neither did anyone else.
+
+Still, that didn't stop them from spending every spare dollar they had in his tiny shop.
+
+Kids rarely notice danger...
+
+when it's hiding behind candy.
 
 
-He never yelled at them to hurry up with their picks. He would just watch them intensely as they made their selections and fill the brown bags that seemed even smaller in his oversized hands. Yes, he’d often have a line-up outside, especially on weekends when the cottagers were in town—the tiny candy store was more popular than the pastry shop’s ice cream!
+He never rushed them.
 
-This big guy loved masks. That was the only kind of weirdo thing he had going on, besides the large ominous scar across his left eye. Along the wall behind his cash were little masks—maybe seven or eight of them, but it was a strange collection, really, with an odd sign that read: NOT FOR SALE. Who would want to buy those things?
+Never complained when they took forever deciding.
 
-They looked homemade, and something about them seemed a little sinister—clown-like and depressing. It was strange to have these masks watching over the kids as they stood choosing their candies and filling their bags with their week's allowances.
+He simply watched...
 
-That was the summer when Bobby didn’t come home. They had all gone out to play as usual on that warm, humid afternoon, and Johnny had to get back a little earlier—he had to join his family at the little town church for his little cousin’s baptism the next morning.
+carefully...
 
-Johnny still feels a heavy guilt today for leaving Bobby alone to walk home from where they’d been skipping rocks down by the lake.
+while they made their selections.
 
-Bobby insisted his friends Paul and Julie were on their way, so he wouldn’t be alone for long. But by the time Paul and Julie got there, Bobby was nowhere to be seen. They had assumed he’d gone home early with Johnny. They were ten, and they didn’t have phones.
+Then he filled the little brown paper bags that somehow looked even smaller inside his oversized hands.
 
-That late Friday evening, on August 13th, there were a number of frantic calls between the parents before the local police department was called and a missing persons report was filed.
+On weekends, there was often a lineup stretching out the door.
 
-The police spent all night searching, even called in the K-9 unit and opened up the search to anyone who wanted to help.
+The tiny candy shop had become even more popular than the pastry shop's famous ice cream.
 
-Many of the townsfolk showed up, and it was such an ordeal that Johnny’s little cousin’s baptism was called off, as most of the congregation was out looking for Bobby.
+There was something peculiar about the candy man.
 
-It was dinnertime Sunday when the police disclosed they had found him—out on an island in the middle of the lake. There, in the hot August heat with the lake glistening like diamonds, Bobby's small body lay in a shallow grave of twigs and branches, mud and rocks. He was lying perfectly still, his hands crossed neatly over his chest.
+He loved masks.
 
-At first, one of the officers thought he looked peaceful.
+Not the cheap Halloween kind.
+
+These looked handmade.
+
+Old.
+
+Almost...
+
+alive.
+
+Seven or eight of them hung behind the cash register beneath a crooked wooden sign that simply read:
+
+NOT FOR SALE
+
+Who would want such unsettling things?
+
+Their painted expressions were strange.
+
+Some smiled.
+
+Some frowned.
+
+Some seemed almost sad.
+
+But every one of them felt wrong somehow.
+
+As though they were quietly watching the children while they filled their bags with sweets.
+
+That was the summer Bobby never came home.
+
+The four friends had spent another warm August afternoon together.
+
+Johnny had to leave a little earlier than usual.
+
+His family was preparing for his little cousin's baptism the following morning at the village church.
+
+Even now, twenty-five years later...
+
+Johnny still carried the weight of leaving Bobby behind.
+
+He had watched his friend begin the walk home alone after the boys had spent the afternoon skipping stones across Lac Saint-Clair.
+
+Bobby had smiled and waved.
+
+"Paul and Julie will be here any minute."
+
+Johnny believed him.
+
+When Paul and Julie finally arrived...
+
+Bobby was gone.
+
+They assumed he'd already walked home with Johnny.
+
+After all...
+
+they were only ten years old.
+
+And back then...
+
+ten-year-olds didn't carry cell phones.
+
+That late Friday evening, on August 13, 1996, frantic phone calls echoed through Saint-Clair-des-Bois as parents searched for Bobby.
+
+When no one had seen him, the local police were called, and a missing persons report was filed.
+
+Officers searched through the night.
+
+The K-9 unit was brought in.
+
+Word spread quickly, and before long nearly the entire village had joined the search.
+
+Flashlights moved through backyards.
+
+Boats searched Lac Saint-Clair.
+
+Volunteers combed the trails that disappeared into Les Pins Noirs, calling Bobby's name into the darkness.
+
+Nothing.
+
+By Saturday morning, the village had fallen eerily quiet.
+
+Johnny's little cousin's baptism was cancelled.
+
+Most of the congregation was already out searching for Bobby.
+
+No one cared about church that weekend.
+
+Only finding the little boy.
+
+It was dinnertime Sunday when police announced they had found him.
+
+On a small island near the center of Lac Saint-Clair.
+
+The August sun still shimmered across the water as officers approached the tiny patch of land.
+
+The lake sparkled like thousands of diamonds.
+
+It seemed impossible that something so beautiful could be hiding something so horrific.
+
+There, beneath a crude covering of twigs, branches, mud, and rocks...
+
+lay Bobby.
+
+His small body rested perfectly still.
+
+His hands had been folded neatly across his chest.
+
+For just a brief moment...
+
+one officer thought he looked peaceful.
 
 Then he stepped closer.
 
 And froze.
 
-Bobby's face was gone.
+Bobby's face...
+
+was gone.
 
 Not damaged.
 
@@ -88,77 +264,365 @@ Not wounded.
 
 Gone.
 
-Only a skeletal grin remained, staring up at the evening sky.
+Only a skeletal grin stared silently toward the evening sky.
 
-The image would haunt every officer at that scene for the rest of their lives.
+The image would haunt every officer who stood on that island for the rest of their lives.
 
-She lasted another two days, but then the pain was too much.
+Across the water, Les Pins Noirs stood perfectly still.
 
-The busy little summer town went still. Parents were rattled to the bone and kids were put on lockdown. Police went door to door searching for clues, but there was nothing to link anyone to the heinous crime. No one noticed the little town had lost a candy store, too.
+Not a single branch moved.
 
-One day, a month later, a young constable patrolling the town for leads stopped at the corner store for a cup of coffee. That’s when he noticed the sign: FOR SALE. Another sign dangled from the tiny shop's door handle—CLOSED FOR GOOD. The constable scratched his head. He was sure this had been a candy store, but when he pressed his face to the window and cupped his eyes to see inside, it was totally empty. The candy store and the candy man he’d questioned a month earlier had totally disappeared—without a trace.
+It was as though the forest had witnessed everything...
 
-Some twenty-five years later, in the summer of 2021, Johnny, his wife, and their little girls went out of town on a family vacation to Maine. Driving down Portland Ave., he noticed something strange: a tiny candy store, just next to a corner shop. Something about it called him to pull the car into the parking lot.
+and intended to keep its secrets.
 
-He asked his wife to stay in the car.
+Bobby's mother lasted only two more days.
 
-The girls bounced up and down begging for candy, but Johnny barely heard them.
+The grief was simply too much.
 
-Something about that little shop had reached into the deepest corner of his memory.
+When they found her hanging from Bobby's treehouse, the village suffered a second tragedy.
 
-Before he knew it, he was opening the door.
+No parent should ever have to bury a child.
 
+Some never survive it.
 
-As he entered the store (bells), the smell of sugar hit him and threw him back into his ten-year-old self. The eerie sensation crawling under his skin—millions of goosebumps—he drifted toward the cash; it seemed to glow bright in the dark store like the moon on a blackened sky. There was a familiar presence, like his buddies standing beside him. He looked up to see the man looming before him, glaring. It was him.
+Saint-Clair-des-Bois changed after that.
 
-The creepy, dragging scar along the right cheek of the man's face, and above him an even more terrifying sight: a wall of masks, more than twice as many—still hauntingly peculiar and entirely out of place in a candy store.
+Parents who had once let their children roam freely now called them home before supper.
 
-Johnny never looked at the candy. He stared at the masks behind the giant, one by one scanning their expressions and details, and then he stopped.
+Bike rides became shorter.
 
-Blood drained completely from his face as he gripped the counter to avoid collapsing. There he stood staring into the hideous bluish-painted mask.
+Sleepovers stopped.
 
-The eyes.
+The laughter that once echoed through the village faded into whispers.
 
-The nose.
+Police went door to door searching for answers.
+
+Every neighbour was questioned.
+
+Every rumour was investigated.
+
+Every lead disappeared into nothing.
+
+No fingerprints.
+
+No witnesses.
+
+No motive.
+
+It was as though Bobby had simply vanished...
+
+only to be returned.
+
+No one noticed the candy store had disappeared, too.
+
+Not at first.
+
+There had been far more important things to think about.
+
+But nearly a month later, a young constable stopped at the corner store for a cup of coffee while following up on another lead.
+
+Something immediately caught his attention.
+
+The little candy shop next door had a weathered FOR SALE sign hanging in the window.
+
+Another sign dangled from the doorknob.
+
+CLOSED FOR GOOD.
+
+The constable frowned.
+
+He was certain he'd questioned the candy man there only weeks earlier.
+
+Curious, he walked to the dusty front window and cupped his hands around his face to see inside.
+
+Nothing.
+
+The shelves were gone.
+
+The glass display cases were gone.
+
+The candy.
+
+The jars.
+
+The cash register.
+
+Everything.
+
+The little shop stood completely empty.
+
+It looked as though no business had ever occupied the building at all.
+
+The candy man...
+
+had vanished without a trace.
+
+Years passed.
+
+The investigation slowly grew cold.
+
+Children became adults.
+
+Families moved away.
+
+New families moved in.
+
+The story became something parents spoke about in hushed voices after dark.
+
+Teenagers dared one another to visit Bobby's old treehouse.
+
+Some claimed they heard footsteps inside Les Pins Noirs at night.
+
+Others swore they saw strange lights moving between the trees.
+
+But everyone agreed on one thing.
+
+Poor little Bobby Findlay was never forgotten.
+
+Twenty-five years passed.
+
+By the summer of 2021, Johnny had a wife, two little girls, and a life far away from Saint-Clair-des-Bois.
+
+Like most people, he had learned to live with old ghosts.
+
+Some days they whispered.
+
+Most days they stayed quiet.
+
+He never forgot Bobby.
+
+He simply learned how to carry him.
+
+That summer, the family decided to vacation in Maine.
+
+It was supposed to be an ordinary trip.
+
+The girls laughed in the back seat, arguing over snacks while Johnny and his wife enjoyed the drive through the small coastal towns.
+
+Then, as they drove down Portland Avenue...
+
+Johnny saw it.
+
+A tiny candy store.
+
+Tucked beside a corner shop.
+
+His stomach tightened.
+
+He couldn't explain why.
+
+Something about the place reached into the deepest corner of his memory.
+
+Before he even realized what he was doing, he had pulled into the parking lot.
+
+"I'll just be a minute," he told his wife.
+
+The girls bounced excitedly in their seats.
+
+"Daddy! Can we come?"
+
+"Please?"
+
+Johnny smiled, but it never reached his eyes.
+
+"Not this time."
+
+He climbed out of the car and walked toward the little shop.
+
+The tiny bell chimed as he stepped inside.
+
+The sweet smell of sugar wrapped around him instantly.
+
+For a brief moment...
+
+he was ten years old again.
+
+His skin prickled.
+
+Goosebumps crept slowly up his arms.
+
+The little glass jars.
+
+The wooden shelves.
+
+The faded floorboards.
+
+Every detail felt painfully familiar.
+
+The shop was almost identical.
+
+Johnny drifted toward the counter.
+
+Behind it stood an enormous man.
+
+Watching him.
+
+Silent.
+
+The years had changed him very little.
+
+The deep scar.
+
+The heavy shoulders.
+
+The same unnerving stare.
+
+Johnny felt his heart begin to pound.
+
+It was him.
+Neither man spoke.
+
+Johnny's eyes slowly wandered upward.
+
+Behind the cash register...
+
+hung the masks.
+
+There were more now.
+
+Far more.
+
+Dozens of them.
+
+Each one different.
+
+Each one hand-painted.
+
+Each one frozen somewhere between smiling...
+
+and screaming.
+
+His eyes drifted from one mask...
+
+to the next...
+
+and then stopped.
+
+Everything inside him froze.
+
+His breath caught.
+
+His knees weakened.
+
+The room seemed to tilt beneath him.
+
+He gripped the glass counter to steady himself.
+
+No.
+
+It couldn't be.
+
+He stepped closer.
+
+The faded blue paint.
 
 The shape of the jaw.
 
+The small chip near the left cheek.
+
+The eyes.
+
+God...
+
+the eyes.
+
 He knew that face.
 
-And suddenly he understood what the masks really were.
+Not because it resembled Bobby.
 
-It was Bobby.
+Because...
 
-After twenty-five years, the legend had finally found its ending.
+it was Bobby.
+For twenty-five years, the village had believed Bobby's face had been taken.
 
-Out in the car, the girls and their mother heard a gunshot ring out.
+Now Johnny understood.
 
-Police later linked that candy man to the deaths of nineteen children within a ten-hour radius, and forensic investigation of the masks he hung like trophies on his wall provided the evidence.
+It had never disappeared.
+
+It had become a trophy.
+
+Hanging silently on a wall.
+
+Waiting...
+
+for someone who remembered.
+Johnny's scream echoed through the tiny shop.
+
+Outside, his wife looked toward the store.
+
+The girls stopped talking.
+
+Then...
+
+a gunshot shattered the afternoon.
+
+Police arrived within minutes.
 
 Johnny survived.
 
-Scarred by what he had seen.
+The bullet had torn through his shoulder, missing his heart by inches.
 
-But when the officers burst through the door, the candy man was gone.
+When officers rushed inside...
 
-Johnny finally brought home the answers.
+the candy man was gone.
 
-And the flesh. The face of his dear friend, Bobby Findlay.
+Once again...
 
-But the candy man....
+he had vanished without a trace.
 
-He is still out there, 
+The investigation that followed uncovered a nightmare.
 
-possibly building a new wall of masks....the faces of a new neighbourhood.... 
+Authorities linked the mysterious candy man to the murders of nineteen children scattered across towns within a ten-hour drive.
 
-Some legends fade with time, while Others wait patiently in the dark. Perhaps within the dark tiny walls of a small town candy store....
+Forensic investigators recovered the masks from the wall.
 
+Each one told its own terrible story.
 
+Each one belonged to a child who had never truly been forgotten.
 
-If you enjoyed tonight's tale, please like and subscribe.
+Among them...
 
-There are many more stories waiting beyond the edge of the firelight.
+was Bobby Findlay.
 
-Until next time...
+After twenty-five years...
 
-keep the fire burning.
+he finally came home.
+
+Johnny had spent half his life searching for answers.
+
+Instead...
+
+he found something far worse.
+
+The truth.
+
+As for the candy man...
+
+No one knows where he went.
+
+Perhaps he crossed another border.
+
+Changed his name.
+
+Opened another little candy store beside another corner shop.
+
+Maybe somewhere, another child is standing beneath a little bell...
+
+trying to decide between jelly beans and chocolate bars...
+
+while strange masks watch silently from behind the counter.
+
+Waiting.
+
+Some legends fade with time.
+
+Others...
+
+simply move on.
+
+Perhaps tonight...
+
+in some quiet little village...
+
+a tiny candy store has just opened its doors.
