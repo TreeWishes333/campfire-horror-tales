@@ -64,9 +64,11 @@ a { text-decoration: none; color: inherit; transition: 0.3s ease; }
   padding: 1rem 2rem;
 }
 .brand {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
-  letter-spacing: 0.08em;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    letter-spacing: 0.08em;
+    color: var(--paper);
+    font-weight: 600;
 }
 .site-header__audio {
   padding: 0.55rem 0.85rem;

@@ -80,8 +80,8 @@
         border-radius: 999px;
         background: rgba(8, 10, 12, 0.35);
         color: var(--paper);
-        font: 500 0.72rem/1 'Inter', sans-serif;
-        letter-spacing: 0.12em;
+        font: 500 0.78rem/1 'Inter', sans-serif;
+        letter-spacing: 0.08em;
         text-transform: uppercase;
         cursor: pointer;
         backdrop-filter: blur(10px);
@@ -107,7 +107,7 @@
 
       .anthology-exhibit {
         overflow: visible;
-        padding-bottom: clamp(3rem, 7vw, 5rem);
+        padding-bottom: clamp(5rem, 9vw, 7rem);
       }
 
       .anthology-exhibit::before,
@@ -138,7 +138,7 @@
         position: absolute;
         z-index: 2;
         left: clamp(1.25rem, 3vw, 2rem);
-        bottom: clamp(1.5rem, 4vw, 3rem);
+        bottom: clamp(2.5rem, 5vw, 4rem);
         width: min(60%, 720px);
         margin: 0;
         text-align: left;
@@ -201,7 +201,7 @@
       .anthology-story {
         position: relative;
         z-index: 2;
-        max-width: 760px;
+        max-width: 820px;
         margin: clamp(2.25rem, 4vw, 3.25rem) auto 0;
         padding: clamp(1.25rem, 2.5vw, 2rem) clamp(0.25rem, 2vw, 1rem) clamp(2.25rem, 6vw, 3.5rem);
       }
@@ -304,7 +304,7 @@
         color: #e6dac7;
       }
       .anthology-author h2 {
-        color: #cbb391;
+        color: var(--amber);
         font-size: clamp(2.6rem, 5vw, 4.4rem);
         text-shadow: 0 2px 18px rgba(0, 0, 0, 0.6);
       }
@@ -333,7 +333,7 @@
       .anthology-invitation h2 { font-size: clamp(2.8rem, 5vw, 4.7rem); }
       .anthology-invitation p:not(.anthology-label) {
         margin: 1rem 0 0;
-        color: var(--amber);
+        color: var(--paper);
         font-family: 'Cormorant Garamond', serif;
         font-size: clamp(1.4rem, 2.7vw, 2rem);
         font-style: italic;
@@ -367,7 +367,14 @@
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="index.html" aria-label="Campfire Horror Tales home">Campfire Horror Tales</a>
-        <button class="site-header__audio" type="button" aria-label="Light the crackle">Light the Crackle 🔊</button>
+        <button
+    id="audioToggle"
+    class="site-header__audio"
+    type="button"
+    aria-label="Toggle campfire ambience"
+    aria-pressed="false">
+    Crackle: Off
+</button>
       </div>
     </header>
 
@@ -380,8 +387,7 @@
         <audio class="anthology-ambience" loop preload="metadata">
           <source src="assets/audio/freesound_community-crackling-fire-14759.mp3" type="audio/mpeg" />
         </audio>
-        <button class="anthology-hero__sound" type="button" aria-pressed="false" aria-label="Light the fire">🔥 Light the Fire</button>
-      </section>
+              </section>
 
       <section class="anthology-exhibit" aria-labelledby="fleshy-findlay-title" data-tale="fleshy-findlay">
         <div class="anthology-exhibit__inner">
@@ -432,129 +438,4 @@
       <p>© Dawn Hill. Original stories, dark folklore, and tales from beyond the firelight.</p>
     </footer>
 
-    <script>
-      (() => {
-        const video = document.querySelector('.anthology-hero__video');
-        const ambience = document.querySelector('.anthology-ambience');
-        const soundButton = document.querySelector('.anthology-hero__sound');
-        if (!video || !ambience || !soundButton) return;
-        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) video.pause();
-
-        const fadeTo = (target, duration) => {
-          const start = ambience.volume;
-          const startedAt = performance.now();
-          const tick = (now) => {
-            const progress = Math.min((now - startedAt) / duration, 1);
-            ambience.volume = start + (target - start) * progress;
-            if (progress < 1) requestAnimationFrame(tick);
-          };
-          requestAnimationFrame(tick);
-        };
-
-        soundButton.addEventListener('click', () => {
-          const soundIsOn = ambience.paused;
-          if (soundIsOn) {
-            ambience.volume = 0;
-            ambience.play().then(() => fadeTo(0.18, 2000)).catch(() => {});
-          } else {
-            fadeTo(0, 300);
-            window.setTimeout(() => ambience.pause(), 320);
-          }
-          soundButton.textContent = soundIsOn ? '🔥 Fire Burning' : '🔥 Light the Fire';
-          soundButton.setAttribute('aria-pressed', String(soundIsOn));
-          soundButton.setAttribute('aria-label', soundIsOn ? 'Turn off campfire ambience' : 'Light the fire');
-        });
-      })();
-    </script>
-  </body>
-</html>
-          <!-- <aside class="anthology-behind" id="findlay-behind-fire" data-journal-entry="fleshy-findlay" data-journal-status="future">
-            <h3>Behind the Fire</h3>
-            <p>I found the mask tucked away in our cottage shortly after we bought it in 2019. It felt as though it had been waiting there for someone to discover it.</p>
-            <p>Some people thought it was unsettling. I couldn’t stop wondering who had left it behind... or why.</p>
-            <p>It became the spark that lit Campfire Horror Tales.</p>
-            <p>The mask is real. Everything that followed grew from that first discovery.</p>
-          </aside> -->
-        </div>
-      </section>
-
-      <section class="anthology-exhibit anthology-exhibit--bog" aria-labelledby="boy-in-the-bog-title" data-tale="the-boy-in-the-bog">
-        <div class="anthology-exhibit__inner">
-          <header class="anthology-exhibit__heading">
-            <p class="anthology-label">Tale Two</p>
-            <h2 id="boy-in-the-bog-title">The Boy in the Bog</h2>
-            <p class="anthology-exhibit__tagline">The bog remembers what children leave behind.</p>
-            <p class="anthology-exhibit__lead">There was once a boy named Frankie. Everyone in the village knew him. And everyone feared him.</p>
-            <a class="anthology-exhibit__read-link" href="stories.html">Read Story</a>
-          </header>
-          <img class="anthology-exhibit__art" src="assets/images/The Bog.png" alt="A toad beside a moonlit bog" />
-          <!-- <aside class="anthology-behind" id="bog-behind-fire" data-journal-entry="the-boy-in-the-bog" data-journal-status="future">
-            <h3>Behind the Fire</h3>
-            <p>The frog in this photograph lives in my own backyard garden.</p>
-            <p>The moment I took the picture, I was suddenly transported back to childhood.</p>
-            <p>There was a boy who used to wander the bog near our home. My father would become furious when he saw him tormenting the frogs.</p>
-            <p>After he left, my brothers, sisters, and I would quietly return to rescue the ones we could.</p>
-            <p>Memory has a strange way of finding us. Sometimes it begins with nothing more than the eyes of a frog watching from the reeds.</p>
-          </aside> -->
-        </div>
-      </section>
-
-      <section class="anthology-author" aria-labelledby="dawn-hill-title">
-        <div class="anthology-author__inner">
-          <img class="anthology-author__portrait" src="assets/images/Dawn Hill boat - text-free.png" alt="Dawn Hill sitting in a boat on a moonlit Laurentian lake" />
-          <div class="anthology-author__copy">
-            <p class="anthology-label">Meet the Storyteller</p>
-            <h2 id="dawn-hill-title">Dawn Hill</h2>
-            <p>Dawn Hill writes from the quiet edge of the Laurentian woods, where family memory, dark lakes, and old folklore still have stories to tell after sunset.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="anthology-invitation" aria-labelledby="stay-near-title">
-        <div class="anthology-invitation__inner">
-          <h2 id="stay-near-title">Until next tale...</h2>
-          <p>keep the fire burning.</p>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>© Dawn Hill. Original stories, dark folklore, and tales from beyond the firelight.</p>
-    </footer>
-
-    <script>
-      (() => {
-        const video = document.querySelector('.anthology-hero__video');
-        const ambience = document.querySelector('.anthology-ambience');
-        const soundButton = document.querySelector('.anthology-hero__sound');
-        if (!video || !ambience || !soundButton) return;
-        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) video.pause();
-
-        const fadeTo = (target, duration) => {
-          const start = ambience.volume;
-          const startedAt = performance.now();
-          const tick = (now) => {
-            const progress = Math.min((now - startedAt) / duration, 1);
-            ambience.volume = start + (target - start) * progress;
-            if (progress < 1) requestAnimationFrame(tick);
-          };
-          requestAnimationFrame(tick);
-        };
-
-        soundButton.addEventListener('click', () => {
-          const soundIsOn = ambience.paused;
-          if (soundIsOn) {
-            ambience.volume = 0;
-            ambience.play().then(() => fadeTo(0.18, 2000)).catch(() => {});
-          } else {
-            fadeTo(0, 300);
-            window.setTimeout(() => ambience.pause(), 320);
-          }
-          soundButton.textContent = soundIsOn ? '🔥 Fire Burning' : '🔥 Light the Fire';
-          soundButton.setAttribute('aria-pressed', String(soundIsOn));
-          soundButton.setAttribute('aria-label', soundIsOn ? 'Turn off campfire ambience' : 'Light the fire');
-        });
-      })();
-    </script>
-  </body>
-</html>
+   

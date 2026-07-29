@@ -103,3 +103,54 @@ storyArticles.forEach((storyArticle) => {
       storyArticle.innerHTML = '<p>The story is being prepared for reading.</p>';
     });
 });
+const video = document.querySelector('.anthology-hero__video');
+const ambience = document.querySelector('.anthology-ambience');
+const soundButton = document.getElementById('audioToggle');
+
+if (video && ambience && soundButton) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    video.pause();
+  }
+
+  const fadeTo = (target, duration) => {
+    const start = ambience.volume;
+    const startedAt = performance.now();
+
+    const tick = (now) => {
+      const progress = Math.min((now - startedAt) / duration, 1);
+      ambience.volume = start + (target - start) * progress;
+
+      if (progress < 1) {
+        requestAnimationFrame(tick);
+      }
+    };
+
+    requestAnimationFrame(tick);
+  };
+
+  soundButton.addEventListener('click', () => {
+    const soundIsOn = ambience.paused;
+
+    if (soundIsOn) {
+      ambience.volume = 0;
+      ambience.play()
+        .then(() => fadeTo(0.18, 2000))
+        .catch(() => {});
+    } else {
+      fadeTo(0, 300);
+      setTimeout(() => ambience.pause(), 320);
+    }
+
+    soundButton.textContent = soundIsOn
+      ? 'Crackle: On'
+      : 'Crackle: Off';
+
+    soundButton.setAttribute('aria-pressed', String(soundIsOn));
+    soundButton.setAttribute(
+      'aria-label',
+      soundIsOn
+        ? 'Turn off campfire ambience'
+        : 'Turn on campfire ambience'
+    );
+  });
+}
