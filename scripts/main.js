@@ -91,6 +91,10 @@ storyArticles.forEach((storyArticle) => {
       return response.text();
     })
     .then((markdown) => {
+      if (!markdown.trim()) {
+        throw new Error('Story source is empty.');
+      }
+
       storyArticle.innerHTML = renderMarkdown(markdown);
 
       if (readingTimeEl) {

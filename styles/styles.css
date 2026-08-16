@@ -71,16 +71,16 @@ a { text-decoration: none; color: inherit; transition: 0.3s ease; }
     font-weight: 600;
 }
 .site-header__audio {
-  padding: 0.55rem 0.85rem;
-  border: 1px solid rgba(242, 238, 230, 0.2);
+  padding: 0.35rem 0.6rem;
+  border: 1px solid rgba(242, 238, 230, 0.16);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.03);
   color: var(--paper);
-  font: 500 0.74rem/1 'Inter', sans-serif;
-  letter-spacing: 0.16em;
+  font: 500 0.66rem/1 'Inter', sans-serif;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   cursor: pointer;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
 }
 .site-header__audio:hover,
 .site-header__audio:focus-visible {

@@ -16,54 +16,83 @@
 
     <header class="site-header">
       <div class="site-header__inner">
-        <a class="brand" href="index.html" aria-label="Dawn Hill home">Dawn Hill</a>
+        <a class="brand" href="index.html" aria-label="Campfire Horror Tales home">Campfire Horror Tales</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link" href="index.html">Home</a></li>
+            <li><a class="site-nav__link is-current" href="stories.html">Stories</a></li>
+            <li><a class="site-nav__link" href="behind-the-fire.html">Behind the Fire</a></li>
+            <li><a class="site-nav__link" href="meet-the-author.html">Meet the Author</a></li>
+            <li><a class="site-nav__link" href="follow.html">Follow</a></li>
+          </ul>
+        </nav>
         <button class="site-header__audio" type="button" aria-label="Light the crackle">Light the Crackle 🔊</button>
       </div>
     </header>
 
     <main id="main-content">
-      <section class="story-hero" aria-labelledby="stories-title">
-        <div class="story-hero__content">
-          <p class="eyebrow">Campfire Horror Tales</p>
-          <h1 id="stories-title">Fleshy Findlay</h1>
-          <p class="story-hero__tagline">The first tale from the firelit woods.</p>
-          <p class="story-hero__intro">Dawn Hill’s first collection begins where the roadside meets the forest, and where a single discovery opens the door to something older and far more dreadful.</p>
-          <div class="story-hero__actions" aria-label="Story links">
-            <a class="button" href="fleshy-findlay.html">Read Story</a>
-            <!-- <a class="button button--ghost" href="fleshy-findlay.html#listen">Listen</a> -->
-            <!-- <a class="button button--ghost" href="fleshy-findlay.html#download-pdf">Download This Tale</a> -->
-          </div>
-          <!-- <a class="story-hero__behind" href="fleshy-findlay.html#behind-the-fire">Behind the Fire</a> -->
-        </div>
-        <div class="story-hero__art" aria-hidden="true">
-          <img src="assets/images/Story Posters/Fleshy Findlay Poster.png" alt="Poster artwork for Fleshy Findlay" />
-        </div>
-      </section>
-
-      <section class="content-section stories-intro" aria-labelledby="story-entry-title">
+      <section class="content-section stories-intro" aria-labelledby="story-library-title">
         <div class="section-heading">
-          <p class="eyebrow">STORIES</p>
-          <h1>Welcome to Campfire Horrortales</h1>
+          <p class="eyebrow">Campfire Horror Tales</p>
+          <h1 id="story-library-title">Story Library</h1>
         </div>
         <p class="section-intro">
-          Dawn Hill’s first collection begins with Fleshy Findlay. A roadside discovery unearths a secret that belongs to the forest more than to the living. The tale moves from childhood wonder into something older and far more dreadful.
+          Stories from the campfire collection.
         </p>
 
-        <article class="story-card story-card--compact" aria-labelledby="story-entry-title">
+        <article class="story-card story-card--compact" aria-labelledby="old-woman-title">
           <div class="story-card__media">
             <img
               class="story-card__image"
-              src="assets/images/20190929_152110914_iOS.jpg"
-              alt="Atmospheric photograph accompanying Fleshy Findlay"
+              src="assets/images/The Girl in the Mirror.png"
+              alt="Atmospheric poster artwork accompanying The Old Woman in the Mirror"
             />
           </div>
           <div class="story-card__body">
-            <h2 id="story-entry-title">Fleshy Findlay</h2>
+            <h2 id="old-woman-title">The Old Woman in the Mirror</h2>
             <p>
-              Every town has a story parents tell to get their children home before dark. This is that story. When one young boy didn’t come home, the whole village was left with something far worse than a missing child.
+              The newest tale in the Campfire Horror Tales collection, set beside the old glass and the long silence waiting inside the house.
             </p>
             <ul class="story-card__links">
-              <li><a class="button" href="fleshy-findlay.html">Open the story</a></li>
+              <li><a class="button" href="the-old-woman-in-the-mirror.html">Read Story</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="story-card story-card--compact" aria-labelledby="fleshy-findlay-title">
+          <div class="story-card__media">
+            <img
+              class="story-card__image"
+              src="assets/images/Findlays Face.png"
+              alt="Atmospheric poster artwork accompanying Fleshy Findlay"
+            />
+          </div>
+          <div class="story-card__body">
+            <h2 id="fleshy-findlay-title">Fleshy Findlay</h2>
+            <p>
+              A roadside discovery unearths a secret that belongs to the forest more than to the living. The legend returned to a village that had already learned to fear the dark.
+            </p>
+            <ul class="story-card__links">
+              <li><a class="button" href="fleshy-findlay.html">Read Story</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="story-card story-card--compact" aria-labelledby="boy-in-the-bog-title">
+          <div class="story-card__media">
+            <img
+              class="story-card__image"
+              src="assets/images/The Bog.png"
+              alt="Atmospheric poster artwork accompanying The Boy in the Bog"
+            />
+          </div>
+          <div class="story-card__body">
+            <h2 id="boy-in-the-bog-title">The Boy in the Bog</h2>
+            <p>
+              The bog remembers what children leave behind. When the village’s cruelty gathers in the reeds, the marsh answers with a punishment that no one can forget.
+            </p>
+            <ul class="story-card__links">
+              <li><a class="button" href="assets/stories/the-boy-in-the-bog-draft-02.md">Read the Draft</a></li>
             </ul>
           </div>
         </article>

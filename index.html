@@ -367,6 +367,15 @@
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="index.html" aria-label="Campfire Horror Tales home">Campfire Horror Tales</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link is-current" href="index.html">Home</a></li>
+            <li><a class="site-nav__link" href="stories.html">Stories</a></li>
+            <li><a class="site-nav__link" href="behind-the-fire.html">Behind the Fire</a></li>
+            <li><a class="site-nav__link" href="meet-the-author.html">Meet the Author</a></li>
+            <li><a class="site-nav__link" href="follow.html">Follow</a></li>
+          </ul>
+        </nav>
         <button
     id="audioToggle"
     class="site-header__audio"
@@ -389,42 +398,32 @@
         </audio>
               </section>
 
-      <section class="anthology-exhibit" aria-labelledby="fleshy-findlay-title" data-tale="fleshy-findlay">
-        <div class="anthology-exhibit__inner">
-          <header class="anthology-exhibit__heading">
-            <p class="anthology-label">Tale One</p>
-            <h2 id="fleshy-findlay-title">Fleshy Findlay</h2>
-            <p class="anthology-exhibit__tagline">A missing boy. A forgotten candy shop.</p>
-            <p class="anthology-exhibit__lead">A face that was never truly lost. Discover the legend of Fleshy Findlay, the story that still haunts Saint-Clair-des-Bois.</p>
-          </header>
-          <img class="anthology-exhibit__art" src="assets/images/Findlays Face.png" alt="An ancient painted mask lying among leaves in the forest" />
+      <section class="content-section" aria-labelledby="old-woman-title">
+        <div class="section-heading">
+          <p class="eyebrow">Featured Story</p>
+          <h2 id="old-woman-title">The Old Woman in the Mirror</h2>
         </div>
-        <article class="anthology-story" data-story-source="assets/stories/fleshy-findlay.md"></article>
-      </section>
-
-      <section class="anthology-exhibit anthology-exhibit--bog" aria-labelledby="boy-in-the-bog-title" data-tale="the-boy-in-the-bog">
-        <div class="anthology-exhibit__inner">
-          <header class="anthology-exhibit__heading">
-            <p class="anthology-label">Tale Two</p>
-            <h2 id="boy-in-the-bog-title">The Boy in the Bog</h2>
-            <p class="anthology-exhibit__tagline">The bog remembers what the children have left behind.</p>
-            <p class="anthology-exhibit__lead">Every village has one child the other children learn to avoid. In Saint-Clair-des-Bois... that child was Frankie.</p>
-          </header>
-          <img class="anthology-exhibit__art" src="assets/images/The Bog.png" alt="A toad beside a moonlit bog" />
-        </div>
-        <article class="anthology-story" data-story-source="assets/stories/the-boy-in-the-bog-draft-02.md"></article>
-      </section>
-
-      <section class="anthology-author" aria-labelledby="dawn-hill-title">
-        <div class="anthology-author__inner">
-          <img class="anthology-author__portrait" src="assets/images/Dawn Hill boat - text-free.png" alt="Dawn Hill sitting in a boat on a moonlit Laurentian lake" />
-          <div class="anthology-author__copy">
-            <p class="anthology-label">Meet the Storyteller</p>
-            <h2 id="dawn-hill-title">Dawn Hill</h2>
-            <p>Dawn Hill writes from the quiet edge of the Laurentian woods, where family memories, dark lakes, and old folklore still have stories to tell. Stories that are best shared beside a campfire beneath the glow of the moon.</p>
+        <p class="section-intro">
+          A new Campfire Horror Tale enters the collection.
+        </p>
+        <article class="story-card story-card--compact">
+          <div class="story-card__media">
+            <img class="story-card__image" src="assets/images/The Girl in the Mirror.png" alt="Featured story artwork for The Old Woman in the Mirror" />
           </div>
-        </div>
+          <div class="story-card__body">
+            <h2>The Old Woman in the Mirror</h2>
+            <p>
+              The newest story in the Campfire Horror Tales collection. Read the tale from the story page and return to the firelight whenever the image in the glass seems to shift.
+            </p>
+            <ul class="story-card__links">
+              <li><a class="button" href="the-old-woman-in-the-mirror.html">Read Story</a></li>
+              <li><a class="button button--ghost" href="stories.html">Story Library</a></li>
+            </ul>
+          </div>
+        </article>
       </section>
+
+      <!-- Author section moved to Meet the Author page for Release 2.0 -->
 
       <section class="anthology-invitation" aria-labelledby="stay-near-title">
         <div class="anthology-invitation__inner">
