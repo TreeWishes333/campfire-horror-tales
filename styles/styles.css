@@ -63,6 +63,13 @@ a { text-decoration: none; color: inherit; transition: 0.3s ease; }
   align-items: center;
   padding: 1rem 2rem;
 }
+/* Allow brand to shrink so navigation doesn't overflow on narrower desktops */
+.site-header__inner .brand {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+.site-nav { margin-left: auto; }
+.site-nav__list { flex-wrap: wrap; }
 .brand {
     font-family: 'Cormorant Garamond', serif;
     font-size: 2rem;
@@ -381,7 +388,6 @@ main {
   grid-template-columns: minmax(220px, 300px) 1fr;
 }
 .story-card__media {
-  min-height: 280px;
   overflow: hidden;
   background: linear-gradient(135deg, #131313, #2d2d2d);
 }
@@ -391,6 +397,23 @@ main {
   object-fit: cover;
   display: block;
   opacity: 0.88;
+}
+
+/* Posters should be displayed fully (no cropping). Use when an image inside a story card is a poster. */
+.story-card__poster {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Allow compact story cards that use posters to size naturally instead of forcing a fixed min-height */
+.story-card--compact .story-card__media {
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
 }
 .story-card__body { padding: 2rem; }
 .story-card__body h3,
@@ -455,6 +478,7 @@ main {
   gap: clamp(2rem, 4vw, 4rem);
   align-items: center;
 }
+
 .about-hero__visual {
   position: relative;
   min-height: 720px;
@@ -540,6 +564,11 @@ main {
   gap: clamp(2rem, 4vw, 3.5rem);
   align-items: start;
   animation: fadeUp 0.9s ease both;
+}
+
+/* When the aside poster is removed, allow the manuscript to use full width */
+.story-read.story-read--full {
+  grid-template-columns: 1fr;
 }
 .story-read__content { max-width: 760px; }
 .story-read__meta {

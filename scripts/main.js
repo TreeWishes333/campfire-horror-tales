@@ -31,6 +31,7 @@ function normalizeMarkdown(markdown) {
     .replace(/^\*\*Status:\*\*.*$/gm, '')
     .replace(/^\*\*Version:\*\*.*$/gm, '')
     .replace(/^\*\*Notes:\*\*.*$/gm, '')
+    .replace(/^\*\*(Series|Setting|Genre):\*\*.*$/gm, '')
     .replace(/^---\s*$/gm, '')
     .replace(/\n{3,}/g, '\n\n')
     // Remove a leading H1 (title) so the page's template headings are authoritative
@@ -162,7 +163,7 @@ if (video && ambience && soundButton) {
     if (soundIsOn) {
       ambience.volume = 0;
       ambience.play()
-        .then(() => fadeTo(0.18, 2000))
+        .then(() => fadeTo(0.45, 2000))
         .catch(() => {});
     } else {
       fadeTo(0, 300);
