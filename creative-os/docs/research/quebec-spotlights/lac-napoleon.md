@@ -1,107 +1,70 @@
-# Quebec Spotlight
+# Lac Napoléon
+## Québec Spotlight
 
-## Title
+**Region:** Laurentians, Québec
 
-Lac Napoléon
-
----
-
-## Location
-
-Lac Napoléon
-
-Laurentians, Quebec, Canada
-
-Coordinates
-
-49°24'49" North
-
-70°21'16" West
+**Photography:** Mark Roffey Photography
 
 ---
 
-## Category
+# A Place Close to My Heart
 
-Natural Landscape
+There are beautiful lakes throughout Québec.
 
----
+Then there is **Lac Napoléon**.
 
-## Summary
+For four generations, my family has returned to these quiet waters. Long before I ever wrote Campfire Horror Tales, this lake became the place where I learned to slow down, listen, and imagine.
 
-Lac Napoléon is a peaceful Laurentian lake surrounded by forests, rocky hills, and quiet cottage roads.
+On calm mornings, the water reflects the surrounding hills like polished glass. Mist drifts across the surface while loons call in the distance. Sitting on the dock with a cup of coffee, watching the sun rise over the Laurentians, has become one of my favourite places to think, write, and simply be.
 
-Morning mist frequently settles across the water, creating an atmosphere that feels timeless and cinematic.
+Many of the stories I write begin here.
 
-Although little known outside the region, places like this have become an important source of inspiration for Campfire Horror Tales.
+## 🍁 Québec Spotlight #1 — A Laurentian Treasure
 
----
+Nestled in the heart of Québec's Laurentians, **Lac Napoléon** is a private lake known for its crystal-clear water, peaceful surroundings, and thriving ecosystem.
 
-## Historical Background
+Unlike many popular destinations, there are no busy beaches or bustling waterfronts here. For generations, the families who own cottages along its shores have quietly cared for this special place, helping preserve its natural beauty and remarkable wildlife.
 
-Lac Napoléon forms part of Quebec's rich Laurentian landscape, where forests, lakes, and small communities have shaped generations of outdoor traditions and local history.
+Its calm waters and surrounding forests are home to an incredible variety of species, including:
 
-Nearby communities, including La Minerve, contribute to the cultural character of the region.
+🦅 Bald eagles
+🦉 Falcons
+🪶 Common loons
+🦦 River otters
+🦫 Beavers
+🦢 Great blue herons
+🐢 Snapping turtles
+🦌 White-tailed deer
+🐟 Largemouth bass
+🐟 Smallmouth bass
+🐟 Northern pike
+🐿️ Red squirrels
+🐦 Blue jays
 
----
+Here, nature sets the pace.
 
-## Why it Inspires Campfire Horror Tales
+For me, Lac Napoléon is more than a beautiful lake—it is my favourite place in the world. Four generations of my family have been fortunate enough to spend summers along its shores, making memories that I will always treasure. I couldn't imagine beginning the Québec Spotlight series anywhere else.
 
-Many Campfire Horror Tales begin with places exactly like this.
+### 🌲 Explore the Region
 
-Not because they are haunted.
+While Lac Napoléon itself is private, the surrounding La Minerve region offers countless opportunities to experience the beauty of the Laurentians.
 
-Because they are beautiful.
+Some wonderful places to visit include:
 
-The silence.
+• 🏖️ **Lac Chapleau** – Home to La Minerve's public beach, perfect for swimming and relaxing on a summer day.
+• 🚣 **Lac Désert** – A peaceful lake ideal for paddling, fishing, and enjoying nature.
+• 🛶 **Lac des Mauves** – Public boat access makes this a great spot for canoeing and kayaking.
+• 🌿 **Lac aux Castors** – A quiet lake known for wildlife viewing and time on the water.
+• 🦌 **Papineau-Labelle Wildlife Reserve** – Hundreds of lakes, hiking trails, canoe routes, camping, and some of Québec's finest wilderness.
 
-The mist.
+Whether you're watching loons drift across a quiet lake, paddling through calm waters, or simply enjoying the stillness of the forest, it's easy to understand why so many people fall in love with this corner of Québec.
 
-The still water.
+📸 **Photography:** Mark Roffey Photography
 
-The forests.
+https://markroffeyphotography.com/
 
-These landscapes become the emotional foundation upon which fiction is built.
+—
 
----
+*Part of the **Campfire Horror Tales – Québec Spotlight** series, celebrating the remarkable landscapes, wildlife, history, and communities that make Québec such an extraordinary place to explore.*
 
-## Creative Notes
-
-This location represents the quieter side of Campfire Horror Tales.
-
-Not every story begins with fear.
-
-Sometimes it begins with wonder.
-
----
-
-## Suggested Editorial Series
-
-Quebec Spotlight
-
----
-
-## Image
-
-Original photograph
-
-Morning mist over Lac Napoléon.
-
----
-
-## Status
-
-Published
-
----
-
-## Sources
-
-Personal photography.
-
-Geographic reference:
-
-Lac Napoléon, Quebec
-
-49°24'49" N
-
-70°21'16" W
+#Quebec #Québec #Laurentians #Laurentides #LaMinerve #NatureQuebec #ExploreQuebec #VisitQuebec #WildlifePhotography #CanadianNature #HiddenQuebec #LakesOfQuebec #CampfireHorrorTales #TreeWishesPublishing

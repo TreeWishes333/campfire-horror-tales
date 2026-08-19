@@ -12,3 +12,6 @@ assets/images/originals/
 
 # Windows
 Thumbs.db
+
+# Node.js
+node_modules/

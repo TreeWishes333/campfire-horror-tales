@@ -33,6 +33,8 @@ function normalizeMarkdown(markdown) {
     .replace(/^\*\*Notes:\*\*.*$/gm, '')
     .replace(/^---\s*$/gm, '')
     .replace(/\n{3,}/g, '\n\n')
+    // Remove a leading H1 (title) so the page's template headings are authoritative
+    .replace(/^\s*#\s+[^\n]+\n/, '')
     .trim();
 }
 
@@ -91,20 +93,42 @@ storyArticles.forEach((storyArticle) => {
       return response.text();
     })
     .then((markdown) => {
-      if (!markdown.trim()) {
+      // Extract simple metadata from leading bolded lines (e.g. **Series:** ...)
+      const metaContainer = storyArticle.closest('.story-read__content')?.querySelector('.story-metadata');
+      if (metaContainer) {
+        const meta = {};
+        const metaRegex = /^\*\*(Series|Setting|Genre):\*\*\s*(.*)$/gim;
+        let m;
+        while ((m = metaRegex.exec(markdown))) {
+          meta[m[1]] = m[2].trim();
+        }
+
+        if (Object.keys(meta).length) {
+          const items = [];
+          if (meta.Series) items.push(`<li><strong>Series:</strong> ${meta.Series}</li>`);
+          if (meta.Setting) items.push(`<li><strong>Setting:</strong> ${meta.Setting}</li>`);
+          if (meta.Genre) items.push(`<li><strong>Genre:</strong> ${meta.Genre}</li>`);
+          metaContainer.innerHTML = `<ul class="story-meta-list">${items.join('')}</ul>`;
+        }
+      }
+
+      const cleaned = normalizeMarkdown(markdown);
+
+      if (!cleaned.trim()) {
         throw new Error('Story source is empty.');
       }
 
-      storyArticle.innerHTML = renderMarkdown(markdown);
+      storyArticle.innerHTML = renderMarkdown(cleaned);
 
-      if (readingTimeEl) {
-        const words = markdown.trim().split(/\s+/).filter(Boolean).length;
-        const minutes = Math.max(2, Math.ceil(words / 170));
-        readingTimeEl.textContent = `${minutes} minute${minutes === 1 ? '' : 's'}`;
+      // Move the end-of-story link (if present) to follow the manuscript (helps when printing)
+      const endLink = storyArticle.parentElement?.querySelector('.story-end');
+      if (endLink) {
+        storyArticle.after(endLink);
       }
     })
     .catch(() => {
-      storyArticle.innerHTML = '<p>The story is being prepared for reading.</p>';
+      // Minimal fallback — avoid placeholder marketing copy on story pages
+      storyArticle.innerHTML = '<p>Unable to load this story.</p>';
     });
 });
 const video = document.querySelector('.anthology-hero__video');
@@ -158,3 +182,13 @@ if (video && ambience && soundButton) {
     );
   });
 }
+
+// Print / Download PDF buttons on story pages (opens browser print dialog)
+document.addEventListener('DOMContentLoaded', () => {
+  const printButtons = document.querySelectorAll('.print-story');
+  printButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      window.print();
+    });
+  });
+});

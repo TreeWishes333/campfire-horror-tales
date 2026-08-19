@@ -1,0 +1,11 @@
+{
+  "name": "campfire-horror-site",
+  "version": "2.0.0",
+  "description": "Static site for Campfire Horror Tales — PDF generator script included.",
+  "scripts": {
+    "generate-pdfs": "node scripts/generate-pdfs.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
