@@ -367,7 +367,17 @@
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="index.html" aria-label="Campfire Horror Tales home">Campfire Horror Tales</a>
-        <nav class="site-nav" aria-label="Primary navigation">
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="nav-toggle__label">Menu</span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
           <ul class="site-nav__list">
             <li><a class="site-nav__link is-current" href="index.html">Home</a></li>
             <li><a class="site-nav__link" href="stories.html">Stories</a></li>
@@ -419,8 +429,7 @@
           <div class="story-card__body">
             <h2>The Old Woman in the Mirror</h2>
             <p>
-              The newest story in the Campfire Horror Tales collection. Read the tale from the story page and return to the firelight whenever the image in the glass seems to shift.
-            </p>
+              The newest story in the Campfire Horror Tales collection.             </p>
             <ul class="story-card__links">
               <li><a class="button" href="the-old-woman-in-the-mirror.html">Read Story</a></li>
             </ul>
