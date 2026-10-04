@@ -12,7 +12,7 @@ This entry gathers the approved notes behind *The Boy in the Bog*: childhood sum
 
 ## A Photograph from the Garden
 
-A real frog photograph taken in Andrea Hilton's own garden is part of the story's visual inspiration.
+A real frog photograph from a garden is part of the story's visual inspiration.
 
 ## From Memory to Fiction
 

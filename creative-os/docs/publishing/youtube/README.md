@@ -17,7 +17,7 @@ This is a Markdown-first planning system. It does not upload videos, connect ext
 
 | Category | Editorial rule | Attribution rule |
 | --- | --- | --- |
-| Original Campfire Horror Tales | Identify as original fiction by Andrea Hilton. Never imply it is a true account. | Credit original artwork and licensed assets. |
+| Original Campfire Horror Tales | Identify as original fiction by Dawn Hill. Never imply it is a true account. | Credit original artwork and licensed assets. |
 | Québec Ghost Stories | Present documented accounts, local reports, and paranormal claims with careful attribution. | Name the source; distinguish reported events from confirmed fact. |
 | Québec Dark Folklore | Present legend, oral tradition, and historical context without treating folklore as verified history. | Preserve sources and avoid broad cultural attribution without a specific source. |
 

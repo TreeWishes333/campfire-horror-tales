@@ -8,7 +8,7 @@ language: en
 
 ## The Real Spark
 
-This entry is reserved for Andrea Hilton's author-reviewed reflection on a Québec village fair, a little boy selling homemade tin-can telephones, and an old Raggedy Ann doll marked with a handwritten one-dollar price.
+This entry is reserved for an author-reviewed reflection on a Québec village fair, a little boy selling homemade tin-can telephones, and an old Raggedy Ann doll marked with a handwritten one-dollar price.
 
 ## Materials for the Reflection
 

@@ -22,13 +22,13 @@ This keeps each language easy to find, works on a static host, and avoids changi
 
 ## Behind the Fire
 
-`behind-the-fire.html` is the index. Source entries live in `assets/behind-the-fire/`; each entry has a matching static reader page that loads its Markdown via `data-behind-fire-source`.
+Behind the Fire has no public index or navigation item. Source entries live in `assets/behind-the-fire/`; each entry has a matching static reader page that loads its Markdown via `data-behind-fire-source` and is linked only from its related story page.
 
 To add an entry:
 
 1. Copy `assets/behind-the-fire/the-old-woman-in-the-mirror.md` and complete its front matter and sections.
 2. Create a matching reader page from `behind-the-fire-the-old-woman-in-the-mirror.html`, updating its title, description, heading, and Markdown path.
-3. Add a card on `behind-the-fire.html`.
+3. Add a Behind the Fire link to the related story page and a reciprocal link back to that story.
 4. Confirm that the entry distinguishes inspiration from original fiction and credits any source or image.
 
 Existing entries are intentionally independent of story publication. An entry may be marked `pending-author-review` while its approved source notes are safely organized. Do not add unreviewed autobiographical detail or imply that fictional supernatural events occurred.

@@ -8,7 +8,7 @@ language: en
 
 ## Every Story Begins Somewhere
 
-For *Fleshy Findlay*, it began with a mask discovered in Andrea Hilton's small three-season cabin in Québec's Laurentians shortly after the cabin was purchased in August 2018. No one knew who had made it or why it had been left behind.
+For *Fleshy Findlay*, it began with a mask discovered in a small three-season cabin in Québec's Laurentians shortly after the cabin was purchased in August 2018. No one knew who had made it or why it had been left behind.
 
 ## The Spark
 
