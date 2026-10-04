@@ -662,6 +662,24 @@ main {
 
 .story-end { margin-top: 2.25rem; }
 
+.story-reflection {
+  margin-top: 3rem;
+  padding: 1.75rem;
+  border: 1px solid rgba(242, 179, 93, 0.2);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.035);
+}
+.story-reflection h2 {
+  margin: 0 0 0.6rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+}
+.story-reflection p:not(.eyebrow) {
+  margin: 0;
+  color: #ddd7cf;
+}
+.story-reflection .button { margin-top: 1.25rem; }
+
 .inspiration-scrapbook {
   max-width: 540px;
   margin: 2.75rem 0 0;

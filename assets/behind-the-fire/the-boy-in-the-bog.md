@@ -6,14 +6,14 @@ status: pending-author-review
 language: en
 ---
 
-## The Seed
+## Every story has a spark. Here's the one that started this tale.
 
-This entry gathers the approved notes behind *The Boy in the Bog*: childhood summers at the cabin, the bog behind the beach, catching frogs, and the memory of a boy who tormented frogs before the children returned them to the water.
+When I was a kid, my siblings and I would spend our summer days at the cabin, exploring the bog behind the beach. We'd catch frogs—big, warty bullfrogs—hold them gently, admire them, and then let them go back into the water.
 
-## A Photograph from the Garden
+There was a boy who would come down to the beach. He'd catch the frogs too—but he didn't care for them. He'd bury them alive, chase them around, torment them.
 
-A real frog photograph from a garden is part of the story's visual inspiration.
+It made us angry. It made us sad.
+We'd wait for him to leave, then carefully dig them up and return them to the water where they belonged.
 
-## From Memory to Fiction
-
-These memories and the photograph are real inspiration. The characters, plot, and supernatural events in *The Boy in the Bog* are original fiction. An author-reviewed reflection will expand this entry without changing that distinction.
+He became a topic of many heated conversations at the cabin.
+That memory...along with this photo from my own backyard garden...planted the seed for The Boy in the Bog.

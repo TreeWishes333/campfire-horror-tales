@@ -6,27 +6,21 @@ status: outline
 language: en
 ---
 
-## The Inspiration
+## An enchanted family heirloom... or a wicked curse.
 
-This entry is being prepared. Add the real-world inspiration for the story here.
+A life destined for hardship.
+A choice to be free...
+or perhaps to be trapped in a different kind of hell forever.
 
-## The Photograph
+## This is the actual dresser and mirror that once belonged to my great grandmother.
 
-Add details of any photograph, object, or visual reference that inspired the atmosphere. Include credit and permission information where needed.
+My father spent hours in the garage, stripping away layer after layer of old paint. He removed the old nails, and transforming it into the beautiful piece it is today.
 
-## The Family Story
+When I was little, my grandmother would tell me how she'd wake in the middle of the night to see faces—old faces—smiling at her from the mirror.
 
-Add only family history or memories Andrea wishes to share publicly. Do not imply that the fictional events in the story happened.
+## The story also draws from the harsh realities of early German customs in La Minerve
 
-## From Memory to Fiction
+Long winters, many babies, hard work, and a life left little room for anything but survival.
 
-Describe the creative choices that transformed inspiration into an original Campfire Horror Tale.
-
-## Why the Mirror?
-
-Add the reflection on why the mirror became the story's central object.
-
-## What Is Real and What Is Fiction?
-
-State clearly which inspirations are personal, historical, or visual, and that the characters, plot, and supernatural events are original fiction.
+Some reflections remain with you.
 

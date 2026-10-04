@@ -6,18 +6,16 @@ status: published
 language: en
 ---
 
-## Every Story Begins Somewhere
+## One of the goals of the Behind the Fire series is to share where Campfire Horror Tales truly begin.
 
-For *Fleshy Findlay*, it began with a mask discovered in a small three-season cabin in Québec's Laurentians shortly after the cabin was purchased in August 2018. No one knew who had made it or why it had been left behind.
+Every story starts with a real photograph, a memory capturing some "dark", a thing that starts the process and evolves into something deeper, darker, and well yes, creepy.
 
-## The Spark
+This mask is still hanging in our cabin today.
 
-The hand-painted mask remains mounted in the cabin. Its unanswered history became the first spark for a story that Andrea told around campfires with her nieces and nephews, then returned to and reshaped over the years.
-
-## From Object to Fiction
-
-The mask and the memory of finding it are real inspiration. The characters, plot, and supernatural events in *Fleshy Findlay* are original fiction.
+It remains one of my favourite reminders that the best stories often begin with a curious thought...and a wild imagination.
 
 ## Original Photograph
 
-The related photograph was taken at the family cabin in the Laurentians and is part of the early visual history of Campfire Horror Tales.
+The inset photograph featured with this article is the original image taken at our family cabin in the Laurentians.
+
+It remains one of the earliest pieces of inspiration behind Campfire Horror Tales.
