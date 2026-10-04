@@ -15,6 +15,45 @@ if (navToggle && siteNav) {
   });
 }
 
+const languagePath = document.body.dataset.languagePath;
+const headerInner = document.querySelector('.site-header__inner');
+
+if (languagePath && headerInner) {
+  const languageSwitcher = document.createElement('a');
+  languageSwitcher.className = 'language-switcher';
+  languageSwitcher.href = languagePath;
+  languageSwitcher.setAttribute('hreflang', document.documentElement.lang === 'fr' ? 'en' : 'fr');
+  languageSwitcher.setAttribute(
+    'aria-label',
+    document.documentElement.lang === 'fr' ? 'View this page in English' : 'Voir cette page en français'
+  );
+  languageSwitcher.innerHTML = document.documentElement.lang === 'fr'
+    ? '<span>EN</span><span aria-hidden="true"> | </span><strong>FR</strong>'
+    : '<strong>EN</strong><span aria-hidden="true"> | </span><span>FR</span>';
+  headerInner.append(languageSwitcher);
+}
+
+function configureDiscoveryLinks(selector, url) {
+  document.querySelectorAll(selector).forEach((link) => {
+    if (url) {
+    link.href = url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.removeAttribute('aria-disabled');
+    return;
+  }
+
+  link.removeAttribute('href');
+  link.setAttribute('aria-disabled', 'true');
+  link.classList.add('is-unavailable');
+  const status = link.querySelector('[data-youtube-status]');
+  if (status) status.textContent = 'Channel coming soon';
+  });
+}
+
+configureDiscoveryLinks('[data-instagram-link]', window.CAMPFIRE_CONFIG?.instagramUrl);
+configureDiscoveryLinks('[data-youtube-channel-link]', window.CAMPFIRE_CONFIG?.youtubeChannelUrl);
+
 function formatInlineMarkdown(text) {
   return text
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
@@ -132,6 +171,24 @@ storyArticles.forEach((storyArticle) => {
       storyArticle.innerHTML = '<p>Unable to load this story.</p>';
     });
 });
+
+const behindFireArticles = document.querySelectorAll('[data-behind-fire-source]');
+
+behindFireArticles.forEach((article) => {
+  fetch(article.dataset.behindFireSource)
+    .then((response) => {
+      if (!response.ok) throw new Error(`Unable to load Behind the Fire source: ${response.status}`);
+      return response.text();
+    })
+    .then((markdown) => {
+      const content = markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '');
+      article.innerHTML = renderMarkdown(content);
+    })
+    .catch(() => {
+      article.innerHTML = '<p>This Behind the Fire entry is currently unavailable.</p>';
+    });
+});
+
 const video = document.querySelector('.anthology-hero__video');
 const ambience = document.querySelector('.anthology-ambience');
 const soundButton = document.getElementById('audioToggle');

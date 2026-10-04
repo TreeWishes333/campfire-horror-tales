@@ -9,9 +9,10 @@
     />
     <title>Dawn Hill | Follow</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/site-config.js" defer></script>
     <script src="scripts/main.js" defer></script>
   </head>
-  <body>
+  <body data-language-path="fr/follow.html">
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header">
@@ -31,7 +32,7 @@
           <ul class="site-nav__list">
             <li><a class="site-nav__link" href="index.html">Home</a></li>
             <li><a class="site-nav__link" href="stories.html">Stories</a></li>
-            
+            <li><a class="site-nav__link" href="behind-the-fire.html">Behind the Fire</a></li>
             <li><a class="site-nav__link" href="meet-the-author.html">Meet the Author</a></li>
             <li><a class="site-nav__link is-current" href="follow.html" aria-current="page">Follow</a></li>
           </ul>
@@ -50,7 +51,7 @@
         </p>
 
         <div class="follow-grid">
-          <a class="follow-card" href="https://www.instagram.com/campfirehorrortales/" target="_blank" rel="noopener noreferrer">
+          <a class="follow-card" data-instagram-link aria-label="Follow Campfire Horror Tales on Instagram">
             <img src="assets/images/campfirehorrortalesIG.png" alt="campfirehorrortales Instagram" class="follow-card__image" />
             <p class="eyebrow">Instagram</p>
             <h2>@campfirehorrortales</h2>
@@ -62,9 +63,13 @@
             <h2>Return to the stories</h2>
             <p>Visit the home of Campfire Horror Tales whenever the fire is calling.</p>
           </a>
-        </div>
 
-        <p class="follow-note">A future YouTube presence will be added here when the first narrated editions arrive.</p>
+          <a class="follow-card" data-youtube-channel-link aria-label="Follow Campfire Horror Tales on YouTube">
+            <p class="eyebrow">YouTube</p>
+            <h2>Watch by the fire</h2>
+            <p>Follow Campfire Horror Tales on YouTube for narrated stories and atmospheric discoveries. <span class="sr-only">Opens in a new tab.</span></p>
+          </a>
+        </div>
       </section>
     </main>
 
