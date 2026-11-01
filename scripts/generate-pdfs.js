@@ -7,7 +7,8 @@ async function generate() {
   const pages = [
     { html: 'fleshy-findlay.html', out: 'assets/pdfs/fleshy-findlay.pdf' },
     { html: 'the-boy-in-the-bog.html', out: 'assets/pdfs/the-boy-in-the-bog.pdf' },
-    { html: 'the-old-woman-in-the-mirror.html', out: 'assets/pdfs/the-old-woman-in-the-mirror.pdf' }
+    { html: 'the-old-woman-in-the-mirror.html', out: 'assets/pdfs/the-old-woman-in-the-mirror.pdf' },
+    { html: 'a-doll-for-a-dollar.html', out: 'assets/pdfs/a-doll-for-a-dollar.pdf' }
   ];
 
   const outDir = path.resolve(__dirname, '..', 'assets', 'pdfs');
