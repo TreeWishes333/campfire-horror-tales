@@ -712,24 +712,47 @@ main {
   object-position: center center;
   display: block;
 }
-.story-hero--art-poster {
-  min-height: 0;
-  height: auto;
-  background: #05070b;
+.story-hero--lantern .story-hero__art img {
+  object-position: center center;
 }
-.story-hero--art-poster::before,
-.story-hero--art-poster .story-hero__art::after {
-  display: none;
-}
-.story-hero--art-poster .story-hero__art {
-  position: relative;
-  inset: auto;
-}
-.story-hero--art-poster .story-hero__art img {
-  height: auto;
-  max-height: none;
-  object-fit: contain;
-  filter: none;
+
+@media (max-width: 700px) {
+  .story-hero--lantern {
+    display: flex;
+    min-height: 0;
+    height: auto;
+    flex-direction: column;
+  }
+  .story-hero--lantern::before,
+  .story-hero--lantern .story-hero__art::after {
+    display: none;
+  }
+  .story-hero--lantern .story-hero__art {
+    position: relative;
+    inset: auto;
+    order: 0;
+    width: 100%;
+  }
+  .story-hero--lantern .story-hero__art img {
+    position: static;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    filter: none;
+  }
+  .story-hero--lantern .story-hero__content {
+    position: relative;
+    inset: auto;
+    order: 1;
+    width: 100%;
+    padding: 1.5rem 1.25rem 2rem;
+    background: #05070b;
+  }
+  .story-hero--lantern .story-hero__tagline {
+    max-width: 38ch;
+    margin-bottom: 0;
+  }
 }
 .story-manuscript em {
   font-style: italic;
