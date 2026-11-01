@@ -712,6 +712,25 @@ main {
   object-position: center center;
   display: block;
 }
+.story-hero--art-poster {
+  min-height: 0;
+  height: auto;
+  background: #05070b;
+}
+.story-hero--art-poster::before,
+.story-hero--art-poster .story-hero__art::after {
+  display: none;
+}
+.story-hero--art-poster .story-hero__art {
+  position: relative;
+  inset: auto;
+}
+.story-hero--art-poster .story-hero__art img {
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  filter: none;
+}
 .story-manuscript em {
   font-style: italic;
   color: var(--paper);
