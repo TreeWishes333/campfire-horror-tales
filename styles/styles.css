@@ -716,7 +716,7 @@ main {
   object-position: center center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 860px) {
   .story-hero--lantern {
     display: flex;
     min-height: 0;
